@@ -1,0 +1,1772 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" SchemaVersion="97" RootDocumentID="{5D196377-55B1-4B35-B61E-70B8120B1A9C}">
+	<Events>
+		<WorkUnit Name="NPC_PC" ID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" OwnerID="{5D196377-55B1-4B35-B61E-70B8120B1A9C}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="hits_hits_tank_pc_ap_ap_armor_not_pierce_huge" ID="{A10D21A0-605D-4414-B273-1CE1BDC7DF66}">
+					<ChildrenList>
+						<Action Name="" ID="{5D495E41-7865-4654-A516-02FD635FE4FB}" ShortID="517093938">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_152mm_PC_貫通_Outside" ID="{9ECC963E-40A6-4773-AF67-0A251593578E}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{26FA1DF4-8F1E-4DEA-99B7-A6FB39F65622}" ShortID="564483507">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_152mm_PC_貫通_Inside" ID="{758CA794-D96E-40C2-9DA4-E5F18CE3F01C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_hc_hc_critical_hit_huge" ID="{8E8B044D-D5A5-4B95-869E-EBF5F658D1AB}">
+					<ChildrenList>
+						<Action Name="" ID="{DAFEAC50-31F7-4502-9D7C-5D1D8FFFED9D}" ShortID="386541751">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_152mm_PC_クリティカル_Outside" ID="{A5B813FA-7368-4BDF-98AF-8FEBEF93FE93}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{074E14A4-DAB9-4D57-BB5D-7DEDFDDF6082}" ShortID="350604815">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_152mm_PC_クリティカル_Inside" ID="{0504EB3F-EFC6-451D-9E71-4164F94FF5F1}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BB7C792F-F767-418F-B2F5-AD0378042F8B}" ShortID="837087343">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CRIT_SE" ID="{00AE5B54-9C4E-4771-828E-9FCAA6BB6336}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F3C5E245-CB4D-42F1-A53E-F9ABD6498CE1}" ShortID="699398286">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hits_HEAT_MISSILE_Hiss" ID="{5980E413-A8D1-4909-9C7F-D3FF3650B5F5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{85482EEF-0987-43B3-AB1F-5692E21BD516}" ShortID="212677643">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HUGE_HE" ID="{52962387-2F51-4BC3-8714-BB1499ACC4FA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_hc_hc_armor_pierce_tow" ID="{F23771C2-8D10-4FBC-BB36-8857D240C4AD}">
+					<ChildrenList>
+						<Action Name="" ID="{7DE8AAFB-828D-425E-944D-30C9B0253763}" ShortID="588073641">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_ミサイル_PC_貫通_Inside" ID="{E8374A7E-2DD8-4631-8178-172ED7965389}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FBB78C78-3981-4618-B20B-38F05346FB12}" ShortID="1050977528">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_ミサイル_PC_貫通_Outside" ID="{5237581E-A7BE-4C2F-A511-977AD8ABE131}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2665CBB8-5215-4CE9-B801-DAAA8BAC20C1}" ShortID="924665245">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HUGE_HE" ID="{52962387-2F51-4BC3-8714-BB1499ACC4FA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{07EAE3F0-4224-4562-8A24-774BB61EBBE0}" ShortID="96437312">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hits_HEAT_MISSILE_Hiss" ID="{5980E413-A8D1-4909-9C7F-D3FF3650B5F5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_ap_ap_armor_pierce_main" ID="{7F2BE81C-96FC-4986-BA8E-0DF1B4E4DE64}">
+					<ChildrenList>
+						<Action Name="" ID="{5D68529B-A5F6-4ADD-8F84-294C84F43576}" ShortID="477535962">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_85_107mm_PC_跳弾_Outside" ID="{13463DB4-C052-470D-A29A-BBC1AE6C06CE}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{806CA9C3-4153-4FA8-A724-CB065FFE15C5}" ShortID="416476227">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_85_107mm_PC_跳弾_Inside" ID="{F371B6D7-B48B-4B15-916B-DB1D8265B960}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_hc_hc_armor_pierce_large" ID="{90003726-1D8E-4D1A-9A3E-E90C2BF9C451}">
+					<ChildrenList>
+						<Action Name="" ID="{8FECB6CE-CE2B-4B9E-BF54-ED2A8C79D620}" ShortID="475928945">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_115_152mm_PC_跳弾_Inside" ID="{F4789DFC-BC74-4994-81F5-0D2316496C48}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6E38AFA4-0144-4754-8E5A-1CB3EBDE3284}" ShortID="260547862">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_115_152mm_PC_跳弾_Outside" ID="{785A2ABA-95CA-4A99-A8A5-850C09220D76}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8C4E4C3D-3B0E-44D5-9CB0-1642CAFE5F51}" ShortID="551401663">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hits_HEAT_MISSILE_Hiss" ID="{5980E413-A8D1-4909-9C7F-D3FF3650B5F5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4138B6E3-A6D8-4772-8CF3-69F382256A64}" ShortID="171908818">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LARGE_HE" ID="{C0C698CC-84C2-4755-AFDC-88366B79875B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_ap_ap_ricochet_large" ID="{198E34FF-8362-41A6-A7A1-C59B6AFF98D5}">
+					<ChildrenList>
+						<Action Name="" ID="{64427B54-E326-4ED1-9DAD-07408B278E50}" ShortID="535064324">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_115_152mm_PC_非貫通_Outside" ID="{8EF51BEE-5427-4567-874A-08ABB5B45076}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F3EEA725-ADD6-451C-8F83-4040F0648BF9}" ShortID="252745365">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_115_152mm_PC_非貫通_Inside" ID="{4C32BDE2-11AC-4CC0-915F-F51172875DF4}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_ap_ap_ricochet_main" ID="{F71A0CDD-6E31-41E0-B719-62677E8B7144}">
+					<ChildrenList>
+						<Action Name="" ID="{28691EDC-4AFB-4E4B-B8CA-40CCC887DA87}" ShortID="307792601">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_85_107mm_PC_非貫通_Outside" ID="{AC188442-B36F-4ED8-A7AA-F92F340C43E3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5B11E48C-2021-4831-B3BF-9BC6CB943BA6}" ShortID="688860325">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_85_107mm_PC_非貫通_Inside" ID="{421B23F6-37FA-484F-81CA-3B6BD174DFDE}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_apcr_apcr_armor_not_pierce_small" ID="{68B9611D-9957-411E-9817-79F90EBC83B9}">
+					<ChildrenList>
+						<Action Name="" ID="{C11ADE7F-1EEB-484F-80D7-82703759A755}" ShortID="693746314">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="APCR_12_45mm_PC_跳弾_Inside" ID="{65D979E3-85B2-4194-AA8C-7CDAC7494EA7}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D6FB0453-8FCF-4ACE-B14E-93D2455C88BC}" ShortID="488126970">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="APCR_12_45mm_PC_跳弾_Outside" ID="{234E80F3-2ECC-4564-A63F-E4F30A2D067E}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_hc_hc_armor_pierce_main" ID="{4FAF0DCE-D048-490C-821E-8360FFA41E8E}">
+					<ChildrenList>
+						<Action Name="" ID="{2E14F82E-9D3D-474B-833B-6B5E6727A93A}" ShortID="240604043">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_85_107mm_PC_跳弾_Outside" ID="{B725D609-97F8-4924-B2E2-C94F3A4FF32E}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C0AEE01B-5FEB-4D86-B999-A2331877DB2D}" ShortID="423624142">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_85_107mm_PC_跳弾_Inside" ID="{FFEB1CDB-A323-445C-B9E7-C43EFC8BC613}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4F8866DB-2DF1-4845-9741-A1B4907D54E0}" ShortID="437720739">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hits_HEAT_MISSILE_Hiss" ID="{5980E413-A8D1-4909-9C7F-D3FF3650B5F5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D4046391-5D6A-4204-A069-7AC5EF218859}" ShortID="722085165">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN_HE" ID="{20F37DCC-D5B3-425B-81AF-832400325EA3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_apcr_apcr_ricochet_huge" ID="{5309FB5A-790E-4753-BD9E-EEBF8E82D324}">
+					<ChildrenList>
+						<Action Name="" ID="{0D5A6B32-B48A-4B09-B690-8554D76F810A}" ShortID="128283991">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="APCR_152mm_PC_非貫通_Outside" ID="{0982FE2D-C9CF-4438-8E42-73552FF41D13}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1528871D-41C7-4B6C-9C1D-BDC5EC2D19CD}" ShortID="151254635">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="APCR_152mm_PC_非貫通_Inside" ID="{9ACCD969-94D6-4274-B1F9-C9006692E8E2}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_ap_ap_ricochet_small" ID="{A64A1EB4-E546-473C-B97F-20671443EC9A}">
+					<ChildrenList>
+						<Action Name="" ID="{06F96011-674F-44AD-866D-853A244CF335}" ShortID="755743827">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_12_45mm_PC_RICO_Inside" ID="{4E70B916-7A8B-4749-BC3F-FACEDC1A5CD1}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DBA4198E-7C93-44D0-935F-DFDE4E417DCB}" ShortID="338051329">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_12_45mm_PC_非貫通_Outside" ID="{6E937483-703E-446B-9CD2-FA496C8AB083}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_apcr_apcr_armor_not_pierce_main" ID="{959AABAD-5D46-4063-9041-1543326F38CA}">
+					<ChildrenList>
+						<Action Name="" ID="{99565D4C-DCB6-4ADD-B179-BEF401A19D9C}" ShortID="355520157">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="APCR_85_107mm_PC_跳弾_Outside" ID="{EB33AA66-C8CC-4AF8-8E1E-84CE4862440F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F3656775-09E9-4956-AAFD-7699C9EAEF9C}" ShortID="841359142">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="APCR_85_107mm_PC_跳弾_Inside" ID="{BDBD051C-058D-43A7-A161-EBE1ACD7B84E}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_apcr_apcr_armor_not_pierce_medium" ID="{5C51C61A-3E32-4059-B892-10F18CC298A9}">
+					<ChildrenList>
+						<Action Name="" ID="{8513E0F3-55EF-45D2-B294-768114C94436}" ShortID="364752036">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="APCR_50_75mm_PC_跳弾_Inside" ID="{83383B23-BC53-44BC-810C-220FCE10C14C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D5F158DB-D959-4F9C-9DD8-978212AF5A92}" ShortID="1043428470">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="APCR_50_75mm_PC_跳弾_Outside" ID="{43B078E7-C423-40FC-9948-A5E25879FA5F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_apcr_apcr_armor_not_pierce_huge" ID="{472155EC-59F1-45F1-991E-E37B9F4BC378}">
+					<ChildrenList>
+						<Action Name="" ID="{F0F2A814-F215-4D23-B4CC-8ADBF6C4A1FF}" ShortID="499710795">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="APCR_152mm_PC_跳弾_Outside" ID="{2639ADE1-0051-4123-96F3-9573D2881F88}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{82632DF0-8518-4BC9-B908-1EC263199FF5}" ShortID="648181096">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="APCR_152mm_PC_跳弾_Inside" ID="{18A5E6E4-E437-4B17-9044-E88F1C41782C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_apcr_apcr_armor_not_pierce_large" ID="{A8E3A06B-A5CF-4120-9F97-E740A6CD6D68}">
+					<ChildrenList>
+						<Action Name="" ID="{BDD4A6FF-4620-4EA4-818D-C71BAE6F4C81}" ShortID="623924157">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="APCR_115_152mm_PC_跳弾_Outside" ID="{68C6B403-0BD3-4347-A05F-B954CD0023D6}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{38EF9C5D-14BF-450C-80D0-3E589175E3BE}" ShortID="1057390563">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="APCR_115_152mm_PC_跳弾_Inside" ID="{E98E4F30-C5C5-40CB-ABDD-CE68C3E35E2A}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_apcr_apcr_ricochet_main" ID="{B40AF7F8-84BD-48D3-AC58-B6F435F04A93}">
+					<ChildrenList>
+						<Action Name="" ID="{102EA873-941A-4958-B35A-3E9FA7E2F73D}" ShortID="664458097">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="APCR_85_107mm_PC_非貫通_Outside" ID="{564652F4-F11B-44CD-A002-CB8A2E789850}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E0E0B203-90FB-4062-8E43-F966B9D10FCC}" ShortID="870225768">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="APCR_85_107mm_PC_非貫通_Inside" ID="{F045A5DD-5BD2-45EA-AEA8-19A208727921}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_apcr_apcr_ricochet_medium" ID="{6A56E418-202D-4573-8723-9FB06538BFD2}">
+					<ChildrenList>
+						<Action Name="" ID="{E2F92A08-42B2-4350-8638-959A219D9F16}" ShortID="434351859">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="APCR_50_75mm_PC_非貫通_Outside" ID="{EF35C227-B5E2-4438-A93B-A6D788979C93}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9556146C-8C71-43EE-8ADD-D64D18406AAA}" ShortID="579066798">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="APCR_50_75mm_PC_非貫通_Inside" ID="{5AFD544E-59AA-41BB-9995-34A22D490FF0}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_apcr_apcr_ricochet_small" ID="{7101EEC8-BE9F-42C7-AE6E-C8D4246F10B0}">
+					<ChildrenList>
+						<Action Name="" ID="{4FD634FB-8B2D-4FFE-8C92-DB64BABBA982}" ShortID="143701295">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="APCR_12_45mm_PC_非貫通_Inside" ID="{3BE68254-8210-4ACB-8724-58A15FF88422}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DF01CEE8-B20E-4995-9C80-4A1CDE71CFAB}" ShortID="780236300">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="APCR_12_45mm_PC_非貫通_Outside" ID="{0C56DE4C-2329-46D9-9CE3-1C59E6A8471F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_apcr_apcr_ricochet_large" ID="{EC5B9B4D-3570-4F0B-A2EC-9BA6D4E3FD53}">
+					<ChildrenList>
+						<Action Name="" ID="{A7B38F75-427E-4DE4-A18E-3E84B447BBD2}" ShortID="368656615">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="APCR_115_152mm_PC_非貫通_Outside" ID="{BECA2445-8FC0-483D-8FFB-753BFF7235B2}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2F6C318C-E85D-478B-AED5-CEC1B7660674}" ShortID="272986310">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="APCR_115_152mm_PC_非貫通_Inside" ID="{7956A18C-8D59-47BD-BC3E-C2DF5E59EDDE}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_ap_ap_ricochet_medium" ID="{BA2C791F-1C2E-4137-9609-9F3BA73B3299}">
+					<ChildrenList>
+						<Action Name="" ID="{0D62350B-2A34-48DB-972F-3A023594DDDF}" ShortID="823161217">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_50_75mm_PC_非貫通_Outside" ID="{77D8D334-2F00-4FFD-A387-9C7035D62AAE}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{539E4BD8-BE20-4EB8-A8AF-CFE32823F785}" ShortID="940727988">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_50_75mm_PC_非貫通_Inside" ID="{4646A869-F37B-4AAC-99C0-48ED63AFFFA0}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_ap_ap_ricochet_huge" ID="{335440DD-6D30-463B-84DC-CA0E19965E48}">
+					<ChildrenList>
+						<Action Name="" ID="{B1F52A0B-7EBB-48C8-99D9-D8106EA03AD1}" ShortID="429085268">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_152mm_PC_非貫通_Outside" ID="{130BE55D-6C2D-4370-A149-FBB71F58486F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5DF64C24-0EF0-45E4-9219-C0AEC9978128}" ShortID="784535659">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_152mm_PC_非貫通_Inside" ID="{0F9CFDC9-C0A9-4090-813F-57DB885D597D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_hc_hc_armor_not_pierce_huge" ID="{DC7B53A5-04B6-4E84-9A1A-6622506F6288}">
+					<ChildrenList>
+						<Action Name="" ID="{C4D20CCC-A207-45C7-809F-BF36CD7D695F}" ShortID="551199888">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_152mm_PC_貫通_Outside" ID="{F190F230-7CDA-40D0-AB98-07A92FE26E6D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{892E8807-FAAE-4CF1-8299-BDCF386B56C4}" ShortID="616047392">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_152mm_PC_貫通_Inside" ID="{8A0640F3-058B-49E8-89E3-A6D33B5DC84D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5C579D40-EE1D-4850-9E4B-610BA6ACF775}" ShortID="144882119">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hits_HEAT_MISSILE_Hiss" ID="{5980E413-A8D1-4909-9C7F-D3FF3650B5F5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CD8CB08F-8095-4C99-A4EA-7832DC07AE2F}" ShortID="779750176">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HUGE_HE" ID="{52962387-2F51-4BC3-8714-BB1499ACC4FA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_hc_hc_armor_pierce_huge" ID="{460726C6-63CB-4ED5-B1D1-073B4636ED40}">
+					<ChildrenList>
+						<Action Name="" ID="{2EE1A246-D1DC-4404-9275-E9DC183A783D}" ShortID="847752791">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_152mm_PC_跳弾_Inside" ID="{7C51ED4E-9A73-4A25-A41C-1E356D1A4BB1}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{38A223C5-C345-40DD-9827-A4DD0902DCB9}" ShortID="74907520">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_152mm_PC_跳弾_Outside" ID="{339EFC57-89A4-4EEF-A8BC-DFEF0EE4FE7B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{61D272BF-926B-49E7-92A1-892AC6662251}" ShortID="360648173">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hits_HEAT_MISSILE_Hiss" ID="{5980E413-A8D1-4909-9C7F-D3FF3650B5F5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{ADE209D4-ECC8-44FA-B833-8AFAC139524D}" ShortID="353987729">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HUGE_HE" ID="{52962387-2F51-4BC3-8714-BB1499ACC4FA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_hc_hc_armor_pierce_medium" ID="{D279450A-B31A-407D-9F7E-3C63C38E71FA}">
+					<ChildrenList>
+						<Action Name="" ID="{FDF9B45F-DC1F-4367-AFCC-6F17F00B596C}" ShortID="925991927">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_50_75mm_PC_跳弾_Inside" ID="{FF9B0A0A-78C4-4B07-B26E-CEE79AC84E36}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CDB907F1-3667-43A8-9AF1-3B206F1F0059}" ShortID="838961305">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_50_75mm_PC_跳弾_Outside" ID="{83B43393-DDD7-46BF-9CDF-A2D3FEB7A976}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{882C6141-362C-463A-8B13-04B29EEE0C6F}" ShortID="607735948">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MEDIUM_HE" ID="{325BA34D-3DC6-4845-801E-B37EF8C6B474}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A2CC9D07-422D-4DF7-AA54-5365DA244AAD}" ShortID="45028796">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hits_HEAT_MISSILE_Hiss" ID="{5980E413-A8D1-4909-9C7F-D3FF3650B5F5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_ap_ap_armor_pierce_huge" ID="{2DFB282F-0BB9-4AEA-AA85-8DAA740C8097}">
+					<ChildrenList>
+						<Action Name="" ID="{8115AD42-FD77-479E-A47F-537B832719DC}" ShortID="818898518">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_152mm_PC_跳弾_Outside" ID="{1AFFD4D3-64FB-4C0A-A3F3-631E7FED2E3A}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{659F2966-64D6-4A7F-A043-5AB82946B8EA}" ShortID="705866256">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_152mm_PC_跳弾_Inside" ID="{4E98C5C6-8372-49A7-97B7-F3424116F560}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_hc_hc_armor_pierce_small" ID="{D6F5911A-79FA-4F27-9749-9F814430B942}">
+					<ChildrenList>
+						<Action Name="" ID="{86B4C4E4-8BCC-4343-8059-FAFBFAEBD37B}" ShortID="6573763">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_12_45mm_PC_跳弾_Outside" ID="{648BC8D1-A170-40AB-ACC3-FBB70006AB60}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EB86B823-5472-451C-8AB0-B9169C38CF6D}" ShortID="245654069">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_12_45mm_PC_跳弾_Inside" ID="{E146D36A-461C-4550-B817-7440D7AC23A8}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1FFF2524-4063-4720-BA67-2CFBD47060B7}" ShortID="1025900874">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hits_HEAT_MISSILE_Hiss" ID="{5980E413-A8D1-4909-9C7F-D3FF3650B5F5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CBE2A896-7C1D-4206-A3F5-5A23878FBA81}" ShortID="211915969">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SMALL_HE" ID="{0FDB835E-69D2-4A8D-B3A1-C553BB3A8F95}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_hc_hc_armor_not_pierce_medium" ID="{B1AC00DC-684A-43BF-A5C4-2E6FD12619CB}">
+					<ChildrenList>
+						<Action Name="" ID="{D0CF6725-5361-4EF6-B8DE-975A57DC50C8}" ShortID="263404711">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_50_75mm_PC_貫通_Outside" ID="{10F0DB84-F723-4E51-831F-03EA149303C0}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{68794210-633E-404E-A98E-F17D3EEC751C}" ShortID="708388436">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_50_75mm_PC_貫通_Inside" ID="{2A5F06D2-3E49-43EE-90B2-1368426FD4FB}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A97C0152-4BBF-4F34-A182-B667AC051A74}" ShortID="631499176">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MEDIUM_HE" ID="{325BA34D-3DC6-4845-801E-B37EF8C6B474}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B965BE13-4175-4093-B040-D0F7100E9CAA}" ShortID="467015839">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hits_HEAT_MISSILE_Hiss" ID="{5980E413-A8D1-4909-9C7F-D3FF3650B5F5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_ap_ap_armor_pierce_large" ID="{BAD42EC9-7640-49C5-AE37-551DD36E56DC}">
+					<ChildrenList>
+						<Action Name="" ID="{64595B4B-24C9-4587-82E7-9105A3CFC80F}" ShortID="428990375">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_115_152mm_PC_跳弾_Inside" ID="{E9F93423-948A-4315-BF00-FD0213B6119E}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1AF972FA-4575-402B-AC3C-0BD1129BA469}" ShortID="418349076">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_115_152mm_PC_跳弾_Outside" ID="{E05FA01B-062A-49D3-990A-0C6FA233F31F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_hc_hc_armor_not_pierce_small" ID="{2D2481CA-1BB6-4240-80D7-082DB6A6589C}">
+					<ChildrenList>
+						<Action Name="" ID="{651DF524-03DB-4C18-955A-EB66A973A5EE}" ShortID="437704613">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_12_45mm_PC_貫通_Inside" ID="{6CE943BE-B04C-4F14-A1D2-6AEB31129750}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9E6CF5CA-7020-4657-BB64-74DDAAEA0A0A}" ShortID="14585859">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_12_45mm_PC_貫通_Outside" ID="{8864F2B7-C016-4EAF-8E53-7730D8C4451B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{63E2FD3C-47C1-4AEB-A992-8A9D6BF500F3}" ShortID="308186660">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SMALL_HE" ID="{0FDB835E-69D2-4A8D-B3A1-C553BB3A8F95}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B8C4F3F5-B063-401D-B2C3-F819A4F22EED}" ShortID="641328840">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hits_HEAT_MISSILE_Hiss" ID="{5980E413-A8D1-4909-9C7F-D3FF3650B5F5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_hc_hc_armor_not_pierce_large" ID="{62550BB0-C0F8-4420-81FD-B9DE3C9B190F}">
+					<ChildrenList>
+						<Action Name="" ID="{56406E1B-80B3-4618-BC59-8171DA8B545B}" ShortID="615480312">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_115_152mm_PC_貫通_Outside" ID="{A0B9E485-3713-4DFE-8043-0DAAF7CF47C4}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7E8A8F9E-AE21-4811-90BF-AF7D5C6464A6}" ShortID="588439161">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_115_152mm_PC_貫通_Inside" ID="{A0A5574B-CCBA-456F-A225-826A59CE4C2B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A95E77BC-E728-47F9-8C6E-71600A9C9F0E}" ShortID="545633879">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hits_HEAT_MISSILE_Hiss" ID="{5980E413-A8D1-4909-9C7F-D3FF3650B5F5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CA1A3798-7D5C-4FB0-A13F-F8D570CC6B73}" ShortID="745316836">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LARGE_HE" ID="{C0C698CC-84C2-4755-AFDC-88366B79875B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_hc_hc_armor_not_pierce_main" ID="{5BFDAE65-14E4-41F8-B526-3F40858FFE84}">
+					<ChildrenList>
+						<Action Name="" ID="{7F30D589-1F65-4E9E-944D-7C68DC896483}" ShortID="143812746">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_85_107mm_PC_貫通_Outside" ID="{52BECFBC-3D74-4F57-9E48-CD5BE452954D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{861A81E9-60FD-4DCD-B5BB-0C238FC65D60}" ShortID="1049219805">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_85_107mm_PC_貫通_Inside" ID="{BBDAB214-7B52-47B1-89FF-988396F1D9CC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B853CE0F-3F99-473A-8C83-97D8A90DBDCD}" ShortID="660291641">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hits_HEAT_MISSILE_Hiss" ID="{5980E413-A8D1-4909-9C7F-D3FF3650B5F5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{69CE9458-0B55-48CB-8054-77AFB7FDEA25}" ShortID="636775903">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN_HE" ID="{20F37DCC-D5B3-425B-81AF-832400325EA3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_he_he_armor_not_pierce_medium" ID="{68C1C169-D72A-437A-BE4C-A1CA407F07E5}">
+					<ChildrenList>
+						<Action Name="" ID="{D9D50B19-66DC-4692-BA41-C58469FEA195}" ShortID="1071202662">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_50_75mm_PC_貫通_Inside" ID="{1CACB1BE-EB7E-4818-A05A-6914039FE123}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A3CAB6FB-719A-408F-89BA-4B04D0AA7AA7}" ShortID="125123159">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_50_75mm_PC_貫通_Outside" ID="{1BE9695B-EBD9-4735-A09F-667FC3CD6D12}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5BB793FE-EF22-4143-8CDA-E2E60B221733}" ShortID="401570569">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MEDIUM_HE" ID="{325BA34D-3DC6-4845-801E-B37EF8C6B474}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_ap_ap_armor_pierce_small" ID="{01B99CFD-0BC1-4A69-8AC0-BFB534A74C10}">
+					<ChildrenList>
+						<Action Name="" ID="{3BB9BFCF-0FC6-444F-A110-5A86D1EFE9A8}" ShortID="918725934">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_12_45mm_PC_PIERCE_Inside" ID="{43103CFF-BE55-42CC-954E-2B4E7F504ABD}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F66CA50D-E602-41D3-971E-08D29A3DF189}" ShortID="446711166">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_12_45mm_PC_跳弾_Outside" ID="{F8F5D621-DADB-4FF1-89C8-CC169A193847}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_ap_ap_critical_hit_huge" ID="{5EBA9442-17BC-4902-858D-110E0D0CFDE5}">
+					<ChildrenList>
+						<Action Name="" ID="{78AC3517-8F7C-44FB-9A97-3A12F3DF277E}" ShortID="684719235">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_152mm_PC_クリティカル_Outside" ID="{B91D1E07-E6FD-4773-951F-A0ADE7CA89D0}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{62062F45-F1AC-4F43-8BFA-E10A5B69854D}" ShortID="143579061">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_152mm_PC_クリティカル_Inside" ID="{BEAC501B-09C2-4E55-A108-4F22780A11C4}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{760FC34B-D934-4B2C-8763-42248FAC90A4}" ShortID="775225931">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CRIT_SE" ID="{00AE5B54-9C4E-4771-828E-9FCAA6BB6336}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_he_he_armor_not_pierce_huge" ID="{5DAE32C5-202C-421F-B305-AC6150193139}">
+					<ChildrenList>
+						<Action Name="" ID="{D3F49329-1F75-46DD-83F8-39FB530858F6}" ShortID="645309916">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_152mm_PC_貫通_Inside" ID="{8E719995-5D7F-4E3B-ADD6-C95C4AC1FFBE}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{62C646F8-E179-48EC-A399-5653391753AE}" ShortID="974773302">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_152mm_PC_貫通_Outside" ID="{6A4392FB-DC5A-4899-9D57-1985128F9CB7}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C05124CB-2DA9-4841-ABB7-4117E0AE7551}" ShortID="1041370914">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HUGE_HE" ID="{52962387-2F51-4BC3-8714-BB1499ACC4FA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_hc_hc_critical_hit_large" ID="{584066C2-4A6B-4739-BE51-1FA6F4EFCB86}">
+					<ChildrenList>
+						<Action Name="" ID="{C4BF8AEC-0A96-42AE-9517-FE1F9958E123}" ShortID="341025212">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_115_152mm_PC_クリティカル_Inside" ID="{85652CE7-2B3D-4DD0-BFE9-C64D1F83949F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EBD9CA68-ED9E-4AF3-9923-8FD48CEE3ABB}" ShortID="174502053">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_115_152mm_PC_クリティカル_Outside" ID="{4AD6C940-BE40-4039-86CB-66274204EFFD}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A9CC18D1-3DC4-49DC-AE73-4E87BC45D8C1}" ShortID="332010584">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CRIT_SE" ID="{00AE5B54-9C4E-4771-828E-9FCAA6BB6336}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8F034246-74AC-4B85-B1D8-3A6771EA3B43}" ShortID="806827588">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LARGE_HE" ID="{C0C698CC-84C2-4755-AFDC-88366B79875B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6FD2A2F6-16E1-4CAB-83A2-217B58420276}" ShortID="478216746">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hits_HEAT_MISSILE_Hiss" ID="{5980E413-A8D1-4909-9C7F-D3FF3650B5F5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_ap_ap_critical_hit_medium" ID="{D927A20B-589A-486D-AC6D-ADB288BBBC4D}">
+					<ChildrenList>
+						<Action Name="" ID="{6EBFC894-8552-4E83-915F-D9B42A2EB776}" ShortID="288097049">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_50_75mm_PC_クリティカル_Outside" ID="{24726C57-FE08-43E4-8BA6-E580D09D16E1}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C54F1F80-11F7-4E31-9897-FE1155266790}" ShortID="750046313">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_50_75mm_PC_クリティカル_Inside" ID="{94DE00CD-37D5-46F1-A371-0FAA053016AD}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5AE847F7-6E05-49B8-BF11-4110DD2FB081}" ShortID="904324965">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CRIT_SE" ID="{00AE5B54-9C4E-4771-828E-9FCAA6BB6336}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_hc_hc_critical_hit_medium" ID="{F94BAE97-00B4-4AEE-90F4-81CDA46D1A9B}">
+					<ChildrenList>
+						<Action Name="" ID="{8B49A4A8-1DBB-468F-9396-0BD0AC304A0C}" ShortID="364178814">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_50_75mm_PC_クリティカル_Outside" ID="{CD5D351F-6D30-4CEE-B2E0-CA4CE2F06AC4}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{255476EE-598F-4901-8568-CCA4A2F3FBF7}" ShortID="791829844">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_50_75mm_PC_クリティカル_Inside" ID="{49CD9C74-3BE8-4E66-8B20-2B3EDBB39CE4}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DC1F6842-D5E6-4355-8064-2027A3528A9B}" ShortID="816197985">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CRIT_SE" ID="{00AE5B54-9C4E-4771-828E-9FCAA6BB6336}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3D32CC91-5704-4AD2-B930-4A41B5362F47}" ShortID="839446951">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MEDIUM_HE" ID="{325BA34D-3DC6-4845-801E-B37EF8C6B474}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{529E9906-632C-40CF-9CF5-4C3AEF341486}" ShortID="593114746">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hits_HEAT_MISSILE_Hiss" ID="{5980E413-A8D1-4909-9C7F-D3FF3650B5F5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_ap_ap_critical_hit_large" ID="{CC85E4BB-6FD1-4E21-AA23-AEDF783A7808}">
+					<ChildrenList>
+						<Action Name="" ID="{32EE593A-2901-4C5B-8BE0-0DA67AC43A64}" ShortID="824737991">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_115_152mm_PC_クリティカル_Inside" ID="{C6B00E15-E966-437F-BD75-ABAA162EB826}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0A926190-9CAE-458C-A402-6C9599EC7C5E}" ShortID="961460748">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_115_152mm_PC_クリティカル_Outside" ID="{C0B27272-0E45-40EF-9562-C0F31BB3A20D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F7371D65-9FF9-4B1E-A5FC-D94D423D7F55}" ShortID="246869300">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CRIT_SE" ID="{00AE5B54-9C4E-4771-828E-9FCAA6BB6336}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_ap_ap_armor_not_pierce_medium" ID="{18761198-50EF-4859-AC5A-414548CE910A}">
+					<ChildrenList>
+						<Action Name="" ID="{AA144F9B-57C9-492C-A4CF-BD642FCC8C4F}" ShortID="459130833">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_50_75mm_PC_貫通_Inside" ID="{42D105FE-9B3C-42F8-AEFB-4C83B0A704D5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9528E8D0-A196-43F8-B86C-47B74663EE13}" ShortID="673970857">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_50_75mm_PC_貫通_Outside" ID="{88E6C420-D59A-4A43-909C-D74036291FAF}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_ap_ap_armor_not_pierce_main" ID="{CE7422A3-1041-4138-8CB6-C3928BB4F8E9}">
+					<ChildrenList>
+						<Action Name="" ID="{8F8C3E63-2F82-4228-8557-81E5399A43C2}" ShortID="312805608">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_85_107mm_PC_貫通_Inside" ID="{263A3777-01F0-4E77-BE65-F4F35FA75F2D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4D8A8E67-6D47-4621-B08D-001F4EA9F2E3}" ShortID="755666877">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_85_107mm_PC_貫通_Outside" ID="{0E026C2F-3FD7-4B51-AE96-64FFE2D825E3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_he_he_armor_not_pierce_main" ID="{BD73B7C5-529B-48F3-A1B4-275067A527CA}">
+					<ChildrenList>
+						<Action Name="" ID="{30B93F78-C81C-48BE-9D4E-BF97D707EB05}" ShortID="35249672">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_85_107mm_PC_貫通_Outside" ID="{8216D0B1-BB36-4C63-A6F3-34D76A8A0335}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8AE002B7-03B1-4C79-BB54-067D23043258}" ShortID="500267882">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_85_107mm_PC_貫通_Inside" ID="{09B8CFE4-28F7-4CCC-82DA-1D66EA599F29}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9FA902C5-D11A-42E4-A6E2-BA00F038A517}" ShortID="942055446">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN_HE" ID="{20F37DCC-D5B3-425B-81AF-832400325EA3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_he_he_armor_pierce_huge" ID="{1652462F-BC4D-46BB-873F-929E9ADD0930}">
+					<ChildrenList>
+						<Action Name="" ID="{4A24E029-7246-4A55-ADF1-761FD799B320}" ShortID="756098860">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_152mm_PC_跳弾_Inside" ID="{35D5A88A-0503-40A7-9DF1-C5297CBCCAA2}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{888623A4-9AB5-4167-8395-C56FEBA9D914}" ShortID="710578105">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_152mm_PC_跳弾_Outside" ID="{1F86711C-1F0B-43FE-BBE4-C9BD3E7B1C61}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7B2B4677-96D1-4D88-85D7-F88A22A17E22}" ShortID="117836195">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HUGE_HE" ID="{52962387-2F51-4BC3-8714-BB1499ACC4FA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_ap_ap_armor_pierce_medium" ID="{D8A0D147-FD8A-4D84-8145-A09E1D0ABB53}">
+					<ChildrenList>
+						<Action Name="" ID="{9C1EFE97-2A20-4333-87FF-C64C1EE523EB}" ShortID="719869347">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_50_75mm_PC_跳弾_Inside" ID="{61ACACC1-891A-4704-9CCB-6FB769EA0529}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D2A2CE4B-69C7-4E18-982B-6FB265E63AC1}" ShortID="4095753">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_50_75mm_PC_跳弾_Outside" ID="{3F0790F2-703C-4FA2-8B6D-BA1F3EB11864}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_hc_hc_critical_hit_tow" ID="{7DDE48CD-1BF2-4E6D-A839-A2B30E10D558}">
+					<ChildrenList>
+						<Action Name="" ID="{3D140D11-D56A-468B-808C-5858E573B658}" ShortID="1060873621">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_ミサイル_PC_クリティカル_Inside" ID="{9FEF06A8-DA5B-4491-9175-A345A647010F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3F8F6A73-B7FD-4D3E-8454-AC148F9A1E67}" ShortID="991911451">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_ミサイル_PC_クリティカル_Outside" ID="{C07F9AD9-65EE-42B6-8BB0-CEFB14072A7C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{976B52AF-8E9D-49C9-8E02-A839FC7337BC}" ShortID="148988142">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CRIT_SE" ID="{00AE5B54-9C4E-4771-828E-9FCAA6BB6336}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9494EA2C-BA31-4FEE-AEF4-ED2B9EBDDC68}" ShortID="86226066">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HUGE_HE" ID="{52962387-2F51-4BC3-8714-BB1499ACC4FA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CA7294EA-46A2-4BBF-873D-EB4FBB3BB847}" ShortID="829567016">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hits_HEAT_MISSILE_Hiss" ID="{5980E413-A8D1-4909-9C7F-D3FF3650B5F5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_he_he_critical_hit_huge" ID="{C196E1B9-361B-491B-A21B-8A9C91ABAA56}">
+					<ChildrenList>
+						<Action Name="" ID="{67D63B2B-FD8E-4377-A374-38B3230B8638}" ShortID="164513531">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_152mm_PC_クリティカル_Inside" ID="{98792561-AA53-4477-B307-C26266A992FE}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0BEF8EFF-6BE4-4A18-ABEC-561103BDC64A}" ShortID="578949433">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_152mm_PC_クリティカル_Outside" ID="{E550C78A-11A9-4A7F-A972-09EE39DE474F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{538045AC-C829-419F-B9B7-4AF9A2A3B637}" ShortID="813716909">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CRIT_SE" ID="{00AE5B54-9C4E-4771-828E-9FCAA6BB6336}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4420870D-A782-4FEB-8D53-1CFEE202C784}" ShortID="79623907">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HUGE_HE" ID="{52962387-2F51-4BC3-8714-BB1499ACC4FA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_he_he_armor_not_pierce_large" ID="{015F7CAD-4116-497A-B521-253D74E18EB3}">
+					<ChildrenList>
+						<Action Name="" ID="{69AA962C-95B5-46C1-A138-98CD34AB95E2}" ShortID="323497124">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_115_152mm_PC_貫通_Inside" ID="{CB86B943-776A-43B5-8177-30CBFE92C199}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5CB6A0BE-FDD3-406B-8E22-B49930E5CFDD}" ShortID="521880831">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_115_152mm_PC_貫通_Outside" ID="{A560190E-1F46-487D-A2F3-6873B6CD5FF3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A131BDD3-89B3-40E5-BF66-E34CAF8FD55F}" ShortID="209029499">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LARGE_HE" ID="{C0C698CC-84C2-4755-AFDC-88366B79875B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_he_he_critical_hit_large" ID="{3C41A390-701D-494E-837A-2D3167E3486D}">
+					<ChildrenList>
+						<Action Name="" ID="{1997A31B-030A-4ABF-B483-8BE6218D9DA5}" ShortID="604611201">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_115_152mm_PC_クリティカル_Outside" ID="{4A50933F-772B-4E1D-9DB1-30E53CDCCBBB}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E7AAD30E-5758-4961-A9F7-F61EE3F11DB4}" ShortID="660522922">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_115_152mm_PC_クリティカル_Inside" ID="{1BD71B7C-CEC2-41F0-9474-CE6E2C7D3276}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{125F023D-E9AF-4326-9F77-64E18BB060F1}" ShortID="475210334">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CRIT_SE" ID="{00AE5B54-9C4E-4771-828E-9FCAA6BB6336}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C5A6B333-752A-46C5-9B45-79AB30B02E42}" ShortID="920100674">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LARGE_HE" ID="{C0C698CC-84C2-4755-AFDC-88366B79875B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_he_he_armor_pierce_large" ID="{17247DE8-2CAE-4C7F-B4FB-7437839375D6}">
+					<ChildrenList>
+						<Action Name="" ID="{D86E4296-9684-4C09-92AD-D0D7A1EBAC96}" ShortID="609824812">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_115_152mm_PC_跳弾_Inside" ID="{8764C4C3-F518-413E-9378-3318EC26E5FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E605A90F-071B-420C-B717-A9F98289AA73}" ShortID="1060674348">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_115_152mm_PC_跳弾_Outside" ID="{DD3DF65A-492E-4A6D-87DB-8E92F3D950AA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A5A938A7-CE37-4FB1-8C30-6F0D432AB071}" ShortID="263893838">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LARGE_HE" ID="{C0C698CC-84C2-4755-AFDC-88366B79875B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_ap_ap_armor_not_pierce_small" ID="{5ADBA322-E0DC-4ECC-8449-FB5C714ACAD2}">
+					<ChildrenList>
+						<Action Name="" ID="{F0F4FA3C-7171-4FE8-B3C6-980495BAC9FA}" ShortID="435334719">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_12_45mm_PC_NOT_PIERCE_Inside" ID="{FBC10EE5-3E38-4ED1-8E8D-3C38A22AE516}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FEAC9E22-9AED-45AA-9092-042CC0963359}" ShortID="60504195">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_12_45mm_PC_貫通_Outside" ID="{EB50449B-DBE5-4A0C-8BE3-6C73BD79F590}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_hc_hc_critical_hit_small" ID="{03509153-F4B2-4BCF-8685-3976FDB68AF7}">
+					<ChildrenList>
+						<Action Name="" ID="{4CBAA99B-C0D8-4638-B29E-E39EF8ECA788}" ShortID="824023450">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_12_45mm_PC_クリティカル_Inside" ID="{20C58415-59C1-4374-A120-90561BCC96BD}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{67DD818D-B1FD-4865-8031-546E30065C75}" ShortID="157511813">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_12_45mm_PC_クリティカル_Outside" ID="{9590CA59-8DBA-46AF-92EC-9C3242B3CCC9}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3C0CD3E9-67DD-46F5-9500-70821C5BE20E}" ShortID="1044001745">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CRIT_SE" ID="{00AE5B54-9C4E-4771-828E-9FCAA6BB6336}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B66ADAA2-A08E-4F9F-A7E0-518CEEA2FF66}" ShortID="1053929737">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hits_HEAT_MISSILE_Hiss" ID="{5980E413-A8D1-4909-9C7F-D3FF3650B5F5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{07C583C1-BE37-4B95-A95B-DF95030B8765}" ShortID="158383929">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SMALL_HE" ID="{0FDB835E-69D2-4A8D-B3A1-C553BB3A8F95}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_ap_ap_critical_hit_main" ID="{05438760-024F-4AEE-BB40-AAE19C8BFC40}">
+					<ChildrenList>
+						<Action Name="" ID="{F65A307B-0DFA-4FF8-A78C-067496DBE08A}" ShortID="584739574">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_85_107mm_PC_クリティカル_Outside" ID="{D321BCE6-0C98-4421-ACD6-2A9B53E5505C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DBD07E0F-1120-406B-A5F8-CD93083E9309}" ShortID="996097457">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_85_107mm_PC_クリティカル_Inside" ID="{B7EA35AA-CA71-47A2-B538-7E248B6CDCA6}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3E6D12B8-0A94-441F-A5BB-3F6F59259DB1}" ShortID="777051062">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CRIT_SE" ID="{00AE5B54-9C4E-4771-828E-9FCAA6BB6336}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_ap_ap_armor_not_pierce_large" ID="{260C5E12-7B2E-4779-AA0F-2CAB0BCFA45C}">
+					<ChildrenList>
+						<Action Name="" ID="{B40F4963-79A0-42D2-9BA4-1DB00443C690}" ShortID="723549115">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_115_152mm_PC_貫通_Outside" ID="{B7A3628E-6C7E-4836-AD93-80B5D2D6DD60}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{689D1851-8F1D-41B2-B281-54385046BBCD}" ShortID="647583155">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_115_152mm_PC_貫通_Inside" ID="{E8850058-DD37-4A7D-BB32-EA98372E62EA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_he_he_armor_not_pierce_small" ID="{DCC35B81-62FA-4670-A34C-60CF1D4B5203}">
+					<ChildrenList>
+						<Action Name="" ID="{A9F2C9FA-C4B1-4559-90F0-096D7BB8699E}" ShortID="366444719">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_12_45mm_PC_貫通_Outside" ID="{BEE106E9-BE4A-4241-893B-70111C7B80AF}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{98FA56DD-E7D5-4BE4-A1C5-EF7E02BE14FB}" ShortID="591204621">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_12_45mm_PC_貫通_Inside" ID="{9A9F3290-93BF-4C1B-BF8F-5E5D15717B5B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{192B65F3-A5C1-4BAD-88E4-B1F2E4FC95FB}" ShortID="707046496">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SMALL_HE" ID="{0FDB835E-69D2-4A8D-B3A1-C553BB3A8F95}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_ap_ap_critical_hit_small" ID="{B30BDE41-F918-415A-BD23-702E150F5A47}">
+					<ChildrenList>
+						<Action Name="" ID="{F22276A0-1215-4443-80F9-0F19989F316C}" ShortID="209245288">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_12_45mm_PC_クリティカル_Outside" ID="{8DB1B4AC-FF56-4782-81E6-8511EAF07AB0}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A5800582-24DB-4243-87EA-58123ADF6DF1}" ShortID="647976908">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AP_12_45mm_PC_CRIT_Inside" ID="{3F5C5477-7C69-4DCD-8422-4FC4956B056E}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C6BFD686-FF80-470F-86C6-D0CB5069BA3A}" ShortID="301803057">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CRIT_SE" ID="{00AE5B54-9C4E-4771-828E-9FCAA6BB6336}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_hc_hc_critical_hit_main" ID="{C6B1E771-4977-43CA-B653-7F2A86A3EF9C}">
+					<ChildrenList>
+						<Action Name="" ID="{5B854D61-AE7E-4B66-B5D7-336FC40D8A92}" ShortID="703103561">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_85_107mm_PC_クリティカル_Outside" ID="{EB23D6E2-F9F2-4BD5-9C18-9691B7AB19A8}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{89F9C6ED-78EF-4CDB-A382-D8816CD7502F}" ShortID="325573218">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HEAT_85_107mm_PC_クリティカル_Inside" ID="{61D96109-1739-4499-B5BD-544C6CC3CABB}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EB3AE63C-320B-4587-B17E-5C083D94FBD1}" ShortID="602175361">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CRIT_SE" ID="{00AE5B54-9C4E-4771-828E-9FCAA6BB6336}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{23B4949A-1F07-417D-96DD-FB8FE55DB139}" ShortID="586178559">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN_HE" ID="{20F37DCC-D5B3-425B-81AF-832400325EA3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{887EE3B2-92F1-4B62-8DA7-2399810A2F6C}" ShortID="633879803">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hits_HEAT_MISSILE_Hiss" ID="{5980E413-A8D1-4909-9C7F-D3FF3650B5F5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_he_he_critical_hit_small" ID="{D80B692F-8CCD-4AD3-8693-BCE2D7E97AF6}">
+					<ChildrenList>
+						<Action Name="" ID="{44A87BED-E276-4183-8653-21854FFC60B6}" ShortID="223443822">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_12_45mm_PC_クリティカル_Outside" ID="{D75E68C4-A583-4131-A1F7-29D214277EB0}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{551DA2E6-5CD0-400D-9362-6FBA86BC8E15}" ShortID="1011089885">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_12_45mm_PC_クリティカル_Inside" ID="{3BEE8BAB-904A-406F-A9E9-C4A398A2966A}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D3714C28-E7DE-4AF9-84D0-152F0DBE64A4}" ShortID="1037090579">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CRIT_SE" ID="{00AE5B54-9C4E-4771-828E-9FCAA6BB6336}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{19EF0A8A-0E88-4907-A145-FED4ABDF6FF4}" ShortID="979697048">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SMALL_HE" ID="{0FDB835E-69D2-4A8D-B3A1-C553BB3A8F95}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_he_he_armor_pierce_medium" ID="{22A98BAF-50CE-4978-B120-BB413D3F0CBB}">
+					<ChildrenList>
+						<Action Name="" ID="{611D62D7-5C02-43D1-971B-59C9451D1C67}" ShortID="253233514">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_50_75mm_PC_跳弾_Inside" ID="{41AB7AC7-4CFF-45B4-81B8-B935FB9B2858}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EA61EF78-120D-4F7D-9837-2D6C65B54BAE}" ShortID="983730181">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_50_75mm_PC_跳弾_Outside" ID="{E5CD3A7A-50EF-481B-A541-B1D41E64B043}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{37B65C21-31F2-478E-9A09-77EBBDF27F3D}" ShortID="265079259">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MEDIUM_HE" ID="{325BA34D-3DC6-4845-801E-B37EF8C6B474}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_he_he_critical_hit_medium" ID="{A9F2A913-1650-4E29-9D1A-5F4403DDDD2B}">
+					<ChildrenList>
+						<Action Name="" ID="{6C40809B-03FA-49E5-9874-79EF50EC9EE5}" ShortID="495076481">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_50_75mm_PC_クリティカル_Outside" ID="{8C0D6A54-891A-40C0-B4FA-EF9AA659BD73}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8B7855AD-BEDC-4815-A9A0-EFE26742320D}" ShortID="528627762">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_50_75mm_PC_クリティカル_Inside" ID="{DF006987-AE32-4E8B-88A4-201E13FE2B6E}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DB98AFD2-F2C0-411A-BCB8-0400BFADE309}" ShortID="426082192">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CRIT_SE" ID="{00AE5B54-9C4E-4771-828E-9FCAA6BB6336}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1E3F7B67-1833-42D1-AC6B-7307E575B2CF}" ShortID="85983998">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MEDIUM_HE" ID="{325BA34D-3DC6-4845-801E-B37EF8C6B474}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_he_he_armor_pierce_small" ID="{572B9BDE-5A80-43FE-9C0F-EFE5CE2F7A8D}">
+					<ChildrenList>
+						<Action Name="" ID="{356CA6B7-096B-41D9-B8A8-8B7B4C11B897}" ShortID="1034986">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_12_45mm_PC_跳弾_Inside" ID="{3CE60193-D22B-48E9-97C7-7C875F31F97C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{53A01D3A-6C10-4741-A18A-F8C8592FD538}" ShortID="618631113">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_12_45mm_PC_跳弾_Outside" ID="{77A0616D-2D29-4F12-88BC-C8D06C20706A}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AF3D4523-EE23-4514-9F5E-A013DD058638}" ShortID="331083627">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SMALL_HE" ID="{0FDB835E-69D2-4A8D-B3A1-C553BB3A8F95}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_he_he_critical_hit_main" ID="{D9A4A064-44FC-4F6E-B6B5-477006FB34A1}">
+					<ChildrenList>
+						<Action Name="" ID="{C4808866-92AF-4348-93A4-413872997C9F}" ShortID="387420019">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_85_107mm_PC_クリティカル_Outside" ID="{C9AD57D3-F96C-40CE-BC4E-45BFD723BD0D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{443A62BF-183C-4CDC-813D-244700A46DD9}" ShortID="262249324">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_85_107mm_PC_クリティカル_Inside" ID="{CAB8203D-6715-464A-B12F-3C84FB1E46D4}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B5BD08C8-8431-4683-89BD-1DCF1C6CA613}" ShortID="502274021">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CRIT_SE" ID="{00AE5B54-9C4E-4771-828E-9FCAA6BB6336}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FD388DF2-3BED-4BDD-AE43-134615A13C80}" ShortID="684912332">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN_HE" ID="{20F37DCC-D5B3-425B-81AF-832400325EA3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hits_hits_tank_pc_he_he_armor_pierce_main" ID="{1CA01291-42DE-4738-AC08-1323A924E14C}">
+					<ChildrenList>
+						<Action Name="" ID="{7E716154-3CA3-47AC-9279-DCACA431CA00}" ShortID="664106485">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_85_107mm_PC_跳弾_Inside" ID="{43590ECD-DAB5-4784-A70B-962CEABCEF94}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EC2F0809-E10B-4265-BC79-AD90A2F2FFD5}" ShortID="330271193">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HE_85_107mm_PC_跳弾_Outside" ID="{E9AC3F5F-58F0-4875-80D8-CC122EBA7AA9}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A503170A-BA2E-4E92-9BBC-B0151E2F51EF}" ShortID="104752184">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN_HE" ID="{20F37DCC-D5B3-425B-81AF-832400325EA3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
