@@ -4,6 +4,10 @@
 		<WorkUnit Name="NPC_PC" ID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" OwnerID="{5D196377-55B1-4B35-B61E-70B8120B1A9C}" PersistMode="Nested">
 			<ChildrenList>
 				<Event Name="hits_hits_tank_pc_ap_ap_armor_not_pierce_huge" ID="{A10D21A0-605D-4414-B273-1CE1BDC7DF66}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{5D495E41-7865-4654-A516-02FD635FE4FB}" ShortID="517093938">
 							<ReferenceList>
@@ -22,6 +26,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_hc_hc_critical_hit_huge" ID="{8E8B044D-D5A5-4B95-869E-EBF5F658D1AB}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{DAFEAC50-31F7-4502-9D7C-5D1D8FFFED9D}" ShortID="386541751">
 							<ReferenceList>
@@ -70,6 +78,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_hc_hc_armor_pierce_tow" ID="{F23771C2-8D10-4FBC-BB36-8857D240C4AD}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{7DE8AAFB-828D-425E-944D-30C9B0253763}" ShortID="588073641">
 							<ReferenceList>
@@ -108,6 +120,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_ap_ap_armor_pierce_main" ID="{7F2BE81C-96FC-4986-BA8E-0DF1B4E4DE64}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="11"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{5D68529B-A5F6-4ADD-8F84-294C84F43576}" ShortID="477535962">
 							<ReferenceList>
@@ -126,6 +142,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_hc_hc_armor_pierce_large" ID="{90003726-1D8E-4D1A-9A3E-E90C2BF9C451}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{8FECB6CE-CE2B-4B9E-BF54-ED2A8C79D620}" ShortID="475928945">
 							<ReferenceList>
@@ -164,6 +184,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_ap_ap_ricochet_large" ID="{198E34FF-8362-41A6-A7A1-C59B6AFF98D5}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{64427B54-E326-4ED1-9DAD-07408B278E50}" ShortID="535064324">
 							<ReferenceList>
@@ -182,6 +206,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_ap_ap_ricochet_main" ID="{F71A0CDD-6E31-41E0-B719-62677E8B7144}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="11"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{28691EDC-4AFB-4E4B-B8CA-40CCC887DA87}" ShortID="307792601">
 							<ReferenceList>
@@ -200,6 +228,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_apcr_apcr_armor_not_pierce_small" ID="{68B9611D-9957-411E-9817-79F90EBC83B9}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="8"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{C11ADE7F-1EEB-484F-80D7-82703759A755}" ShortID="693746314">
 							<ReferenceList>
@@ -218,6 +250,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_hc_hc_armor_pierce_main" ID="{4FAF0DCE-D048-490C-821E-8360FFA41E8E}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{2E14F82E-9D3D-474B-833B-6B5E6727A93A}" ShortID="240604043">
 							<ReferenceList>
@@ -256,6 +292,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_apcr_apcr_ricochet_huge" ID="{5309FB5A-790E-4753-BD9E-EEBF8E82D324}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="8"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{0D5A6B32-B48A-4B09-B690-8554D76F810A}" ShortID="128283991">
 							<ReferenceList>
@@ -274,6 +314,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_ap_ap_ricochet_small" ID="{A64A1EB4-E546-473C-B97F-20671443EC9A}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{06F96011-674F-44AD-866D-853A244CF335}" ShortID="755743827">
 							<ReferenceList>
@@ -292,6 +336,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_apcr_apcr_armor_not_pierce_main" ID="{959AABAD-5D46-4063-9041-1543326F38CA}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="8"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{99565D4C-DCB6-4ADD-B179-BEF401A19D9C}" ShortID="355520157">
 							<ReferenceList>
@@ -310,6 +358,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_apcr_apcr_armor_not_pierce_medium" ID="{5C51C61A-3E32-4059-B892-10F18CC298A9}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="8"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{8513E0F3-55EF-45D2-B294-768114C94436}" ShortID="364752036">
 							<ReferenceList>
@@ -328,6 +380,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_apcr_apcr_armor_not_pierce_huge" ID="{472155EC-59F1-45F1-991E-E37B9F4BC378}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="8"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{F0F2A814-F215-4D23-B4CC-8ADBF6C4A1FF}" ShortID="499710795">
 							<ReferenceList>
@@ -346,6 +402,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_apcr_apcr_armor_not_pierce_large" ID="{A8E3A06B-A5CF-4120-9F97-E740A6CD6D68}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="8"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{BDD4A6FF-4620-4EA4-818D-C71BAE6F4C81}" ShortID="623924157">
 							<ReferenceList>
@@ -364,6 +424,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_apcr_apcr_ricochet_main" ID="{B40AF7F8-84BD-48D3-AC58-B6F435F04A93}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="8"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{102EA873-941A-4958-B35A-3E9FA7E2F73D}" ShortID="664458097">
 							<ReferenceList>
@@ -382,6 +446,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_apcr_apcr_ricochet_medium" ID="{6A56E418-202D-4573-8723-9FB06538BFD2}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="8"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{E2F92A08-42B2-4350-8638-959A219D9F16}" ShortID="434351859">
 							<ReferenceList>
@@ -400,6 +468,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_apcr_apcr_ricochet_small" ID="{7101EEC8-BE9F-42C7-AE6E-C8D4246F10B0}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="8"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{4FD634FB-8B2D-4FFE-8C92-DB64BABBA982}" ShortID="143701295">
 							<ReferenceList>
@@ -418,6 +490,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_apcr_apcr_ricochet_large" ID="{EC5B9B4D-3570-4F0B-A2EC-9BA6D4E3FD53}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="8"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{A7B38F75-427E-4DE4-A18E-3E84B447BBD2}" ShortID="368656615">
 							<ReferenceList>
@@ -436,6 +512,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_ap_ap_ricochet_medium" ID="{BA2C791F-1C2E-4137-9609-9F3BA73B3299}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="11"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{0D62350B-2A34-48DB-972F-3A023594DDDF}" ShortID="823161217">
 							<ReferenceList>
@@ -454,6 +534,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_ap_ap_ricochet_huge" ID="{335440DD-6D30-463B-84DC-CA0E19965E48}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{B1F52A0B-7EBB-48C8-99D9-D8106EA03AD1}" ShortID="429085268">
 							<ReferenceList>
@@ -472,6 +556,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_hc_hc_armor_not_pierce_huge" ID="{DC7B53A5-04B6-4E84-9A1A-6622506F6288}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{C4D20CCC-A207-45C7-809F-BF36CD7D695F}" ShortID="551199888">
 							<ReferenceList>
@@ -510,6 +598,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_hc_hc_armor_pierce_huge" ID="{460726C6-63CB-4ED5-B1D1-073B4636ED40}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{2EE1A246-D1DC-4404-9275-E9DC183A783D}" ShortID="847752791">
 							<ReferenceList>
@@ -548,6 +640,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_hc_hc_armor_pierce_medium" ID="{D279450A-B31A-407D-9F7E-3C63C38E71FA}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{FDF9B45F-DC1F-4367-AFCC-6F17F00B596C}" ShortID="925991927">
 							<ReferenceList>
@@ -586,6 +682,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_ap_ap_armor_pierce_huge" ID="{2DFB282F-0BB9-4AEA-AA85-8DAA740C8097}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{8115AD42-FD77-479E-A47F-537B832719DC}" ShortID="818898518">
 							<ReferenceList>
@@ -604,6 +704,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_hc_hc_armor_pierce_small" ID="{D6F5911A-79FA-4F27-9749-9F814430B942}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{86B4C4E4-8BCC-4343-8059-FAFBFAEBD37B}" ShortID="6573763">
 							<ReferenceList>
@@ -642,6 +746,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_hc_hc_armor_not_pierce_medium" ID="{B1AC00DC-684A-43BF-A5C4-2E6FD12619CB}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{D0CF6725-5361-4EF6-B8DE-975A57DC50C8}" ShortID="263404711">
 							<ReferenceList>
@@ -680,6 +788,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_ap_ap_armor_pierce_large" ID="{BAD42EC9-7640-49C5-AE37-551DD36E56DC}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{64595B4B-24C9-4587-82E7-9105A3CFC80F}" ShortID="428990375">
 							<ReferenceList>
@@ -698,6 +810,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_hc_hc_armor_not_pierce_small" ID="{2D2481CA-1BB6-4240-80D7-082DB6A6589C}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{651DF524-03DB-4C18-955A-EB66A973A5EE}" ShortID="437704613">
 							<ReferenceList>
@@ -736,6 +852,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_hc_hc_armor_not_pierce_large" ID="{62550BB0-C0F8-4420-81FD-B9DE3C9B190F}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{56406E1B-80B3-4618-BC59-8171DA8B545B}" ShortID="615480312">
 							<ReferenceList>
@@ -774,6 +894,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_hc_hc_armor_not_pierce_main" ID="{5BFDAE65-14E4-41F8-B526-3F40858FFE84}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{7F30D589-1F65-4E9E-944D-7C68DC896483}" ShortID="143812746">
 							<ReferenceList>
@@ -812,6 +936,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_he_he_armor_not_pierce_medium" ID="{68C1C169-D72A-437A-BE4C-A1CA407F07E5}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{D9D50B19-66DC-4692-BA41-C58469FEA195}" ShortID="1071202662">
 							<ReferenceList>
@@ -840,6 +968,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_ap_ap_armor_pierce_small" ID="{01B99CFD-0BC1-4A69-8AC0-BFB534A74C10}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{3BB9BFCF-0FC6-444F-A110-5A86D1EFE9A8}" ShortID="918725934">
 							<ReferenceList>
@@ -858,6 +990,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_ap_ap_critical_hit_huge" ID="{5EBA9442-17BC-4902-858D-110E0D0CFDE5}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{78AC3517-8F7C-44FB-9A97-3A12F3DF277E}" ShortID="684719235">
 							<ReferenceList>
@@ -886,6 +1022,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_he_he_armor_not_pierce_huge" ID="{5DAE32C5-202C-421F-B305-AC6150193139}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{D3F49329-1F75-46DD-83F8-39FB530858F6}" ShortID="645309916">
 							<ReferenceList>
@@ -914,6 +1054,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_hc_hc_critical_hit_large" ID="{584066C2-4A6B-4739-BE51-1FA6F4EFCB86}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{C4BF8AEC-0A96-42AE-9517-FE1F9958E123}" ShortID="341025212">
 							<ReferenceList>
@@ -962,6 +1106,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_ap_ap_critical_hit_medium" ID="{D927A20B-589A-486D-AC6D-ADB288BBBC4D}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="11"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{6EBFC894-8552-4E83-915F-D9B42A2EB776}" ShortID="288097049">
 							<ReferenceList>
@@ -990,6 +1138,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_hc_hc_critical_hit_medium" ID="{F94BAE97-00B4-4AEE-90F4-81CDA46D1A9B}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{8B49A4A8-1DBB-468F-9396-0BD0AC304A0C}" ShortID="364178814">
 							<ReferenceList>
@@ -1038,6 +1190,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_ap_ap_critical_hit_large" ID="{CC85E4BB-6FD1-4E21-AA23-AEDF783A7808}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{32EE593A-2901-4C5B-8BE0-0DA67AC43A64}" ShortID="824737991">
 							<ReferenceList>
@@ -1066,6 +1222,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_ap_ap_armor_not_pierce_medium" ID="{18761198-50EF-4859-AC5A-414548CE910A}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="11"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{AA144F9B-57C9-492C-A4CF-BD642FCC8C4F}" ShortID="459130833">
 							<ReferenceList>
@@ -1084,6 +1244,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_ap_ap_armor_not_pierce_main" ID="{CE7422A3-1041-4138-8CB6-C3928BB4F8E9}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="11"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{8F8C3E63-2F82-4228-8557-81E5399A43C2}" ShortID="312805608">
 							<ReferenceList>
@@ -1102,6 +1266,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_he_he_armor_not_pierce_main" ID="{BD73B7C5-529B-48F3-A1B4-275067A527CA}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{30B93F78-C81C-48BE-9D4E-BF97D707EB05}" ShortID="35249672">
 							<ReferenceList>
@@ -1130,6 +1298,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_he_he_armor_pierce_huge" ID="{1652462F-BC4D-46BB-873F-929E9ADD0930}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{4A24E029-7246-4A55-ADF1-761FD799B320}" ShortID="756098860">
 							<ReferenceList>
@@ -1158,6 +1330,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_ap_ap_armor_pierce_medium" ID="{D8A0D147-FD8A-4D84-8145-A09E1D0ABB53}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="11"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{9C1EFE97-2A20-4333-87FF-C64C1EE523EB}" ShortID="719869347">
 							<ReferenceList>
@@ -1176,6 +1352,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_hc_hc_critical_hit_tow" ID="{7DDE48CD-1BF2-4E6D-A839-A2B30E10D558}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{3D140D11-D56A-468B-808C-5858E573B658}" ShortID="1060873621">
 							<ReferenceList>
@@ -1224,6 +1404,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_he_he_critical_hit_huge" ID="{C196E1B9-361B-491B-A21B-8A9C91ABAA56}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{67D63B2B-FD8E-4377-A374-38B3230B8638}" ShortID="164513531">
 							<ReferenceList>
@@ -1262,6 +1446,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_he_he_armor_not_pierce_large" ID="{015F7CAD-4116-497A-B521-253D74E18EB3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{69AA962C-95B5-46C1-A138-98CD34AB95E2}" ShortID="323497124">
 							<ReferenceList>
@@ -1290,6 +1478,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_he_he_critical_hit_large" ID="{3C41A390-701D-494E-837A-2D3167E3486D}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{1997A31B-030A-4ABF-B483-8BE6218D9DA5}" ShortID="604611201">
 							<ReferenceList>
@@ -1328,6 +1520,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_he_he_armor_pierce_large" ID="{17247DE8-2CAE-4C7F-B4FB-7437839375D6}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{D86E4296-9684-4C09-92AD-D0D7A1EBAC96}" ShortID="609824812">
 							<ReferenceList>
@@ -1356,6 +1552,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_ap_ap_armor_not_pierce_small" ID="{5ADBA322-E0DC-4ECC-8449-FB5C714ACAD2}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{F0F4FA3C-7171-4FE8-B3C6-980495BAC9FA}" ShortID="435334719">
 							<ReferenceList>
@@ -1374,6 +1574,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_hc_hc_critical_hit_small" ID="{03509153-F4B2-4BCF-8685-3976FDB68AF7}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{4CBAA99B-C0D8-4638-B29E-E39EF8ECA788}" ShortID="824023450">
 							<ReferenceList>
@@ -1422,6 +1626,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_ap_ap_critical_hit_main" ID="{05438760-024F-4AEE-BB40-AAE19C8BFC40}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="11"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{F65A307B-0DFA-4FF8-A78C-067496DBE08A}" ShortID="584739574">
 							<ReferenceList>
@@ -1450,6 +1658,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_ap_ap_armor_not_pierce_large" ID="{260C5E12-7B2E-4779-AA0F-2CAB0BCFA45C}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{B40F4963-79A0-42D2-9BA4-1DB00443C690}" ShortID="723549115">
 							<ReferenceList>
@@ -1468,6 +1680,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_he_he_armor_not_pierce_small" ID="{DCC35B81-62FA-4670-A34C-60CF1D4B5203}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{A9F2C9FA-C4B1-4559-90F0-096D7BB8699E}" ShortID="366444719">
 							<ReferenceList>
@@ -1496,6 +1712,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_ap_ap_critical_hit_small" ID="{B30BDE41-F918-415A-BD23-702E150F5A47}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{F22276A0-1215-4443-80F9-0F19989F316C}" ShortID="209245288">
 							<ReferenceList>
@@ -1524,6 +1744,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_hc_hc_critical_hit_main" ID="{C6B1E771-4977-43CA-B653-7F2A86A3EF9C}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{5B854D61-AE7E-4B66-B5D7-336FC40D8A92}" ShortID="703103561">
 							<ReferenceList>
@@ -1569,6 +1793,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_he_he_critical_hit_small" ID="{D80B692F-8CCD-4AD3-8693-BCE2D7E97AF6}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{44A87BED-E276-4183-8653-21854FFC60B6}" ShortID="223443822">
 							<ReferenceList>
@@ -1607,6 +1835,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_he_he_armor_pierce_medium" ID="{22A98BAF-50CE-4978-B120-BB413D3F0CBB}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{611D62D7-5C02-43D1-971B-59C9451D1C67}" ShortID="253233514">
 							<ReferenceList>
@@ -1635,6 +1867,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_he_he_critical_hit_medium" ID="{A9F2A913-1650-4E29-9D1A-5F4403DDDD2B}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{6C40809B-03FA-49E5-9874-79EF50EC9EE5}" ShortID="495076481">
 							<ReferenceList>
@@ -1673,6 +1909,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_he_he_armor_pierce_small" ID="{572B9BDE-5A80-43FE-9C0F-EFE5CE2F7A8D}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{356CA6B7-096B-41D9-B8A8-8B7B4C11B897}" ShortID="1034986">
 							<ReferenceList>
@@ -1701,6 +1941,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_he_he_critical_hit_main" ID="{D9A4A064-44FC-4F6E-B6B5-477006FB34A1}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{C4808866-92AF-4348-93A4-413872997C9F}" ShortID="387420019">
 							<ReferenceList>
@@ -1739,6 +1983,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="hits_hits_tank_pc_he_he_armor_pierce_main" ID="{1CA01291-42DE-4738-AC08-1323A924E14C}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{7E716154-3CA3-47AC-9279-DCACA431CA00}" ShortID="664106485">
 							<ReferenceList>

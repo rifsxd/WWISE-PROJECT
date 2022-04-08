@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>E:\Wwise\WoTB_Sound_Mod_English\</ProjectRoot>
-		<SourceFilesRoot>E:\Wwise\WoTB_Sound_Mod_English\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>E:\Wwise\WoTB_Sound_Mod_English\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>E:\GitHub\WWISE-PROJECT\</ProjectRoot>
+		<SourceFilesRoot>E:\GitHub\WWISE-PROJECT\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\GitHub\WWISE-PROJECT\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\Wwise\WoTB_Sound_Mod_English\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\GitHub\WWISE-PROJECT\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -1882,7 +1882,7 @@
 				<Event Id="1607973810" Name="Music_aftershot_victory" ObjectPath="\Events\LoadBGM\Music\Music_Resultscreen\Music_aftershot_victory"/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1923507432" Language="SFX" Hash="4202093102">
+		<SoundBank Id="1923507432" Language="SFX" Hash="2918419660">
 			<ObjectPath>\SoundBanks\Default Work Unit\hits_basic</ObjectPath>
 			<ShortName>hits_basic</ShortName>
 			<Path>hits_basic.bnk</Path>
@@ -2484,6 +2484,210 @@
 						<File Id="1049484758" Language="SFX">
 							<ShortName>expl_mid_tail_06.wav</ShortName>
 							<Path>SFX/expl_mid_tail_06_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1928525938" Name="hits_hits_tank_pc_ap_ap_armor_not_pierce_main" ObjectPath="\Events\Hits\NPC_PC\hits_hits_tank_pc_ap_ap_armor_not_pierce_main">
+					<IncludedMemoryFiles>
+						<File Id="31174167" Language="SFX">
+							<ShortName>ap_armor_not_pierce_main_04.wav</ShortName>
+							<Path>SFX/ap_armor_not_pierce_main_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="55812080" Language="SFX">
+							<ShortName>ap_armor_not_pierce_main_01.wav</ShortName>
+							<Path>SFX/ap_armor_not_pierce_main_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="67958255" Language="SFX">
+							<ShortName>ap_armor_not_pierce_main_03.wav</ShortName>
+							<Path>SFX/ap_armor_not_pierce_main_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="632658852" Language="SFX">
+							<ShortName>ap_armor_not_pierce_main_02.wav</ShortName>
+							<Path>SFX/ap_armor_not_pierce_main_02_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2210707304" Name="hits_hits_tank_pc_ap_ap_armor_not_pierce_medium" ObjectPath="\Events\Hits\NPC_PC\hits_hits_tank_pc_ap_ap_armor_not_pierce_medium">
+					<IncludedMemoryFiles>
+						<File Id="504683223" Language="SFX">
+							<ShortName>ap_armor_not_pierce_medium_01.wav</ShortName>
+							<Path>SFX/ap_armor_not_pierce_medium_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="516559376" Language="SFX">
+							<ShortName>ap_armor_not_pierce_medium_05.wav</ShortName>
+							<Path>SFX/ap_armor_not_pierce_medium_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="670395525" Language="SFX">
+							<ShortName>ap_armor_not_pierce_medium_02.wav</ShortName>
+							<Path>SFX/ap_armor_not_pierce_medium_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="723932404" Language="SFX">
+							<ShortName>ap_armor_not_pierce_medium_04.wav</ShortName>
+							<Path>SFX/ap_armor_not_pierce_medium_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="870919480" Language="SFX">
+							<ShortName>ap_armor_not_pierce_medium_03.wav</ShortName>
+							<Path>SFX/ap_armor_not_pierce_medium_03_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2323950944" Name="hits_hits_tank_pc_ap_ap_armor_pierce_main" ObjectPath="\Events\Hits\NPC_PC\hits_hits_tank_pc_ap_ap_armor_pierce_main">
+					<IncludedMemoryFiles>
+						<File Id="22953135" Language="SFX">
+							<ShortName>ap_armor_pierce_main_02.wav</ShortName>
+							<Path>SFX/ap_armor_pierce_main_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="305452929" Language="SFX">
+							<ShortName>ap_armor_pierce_main_03.wav</ShortName>
+							<Path>SFX/ap_armor_pierce_main_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="808920309" Language="SFX">
+							<ShortName>ap_armor_pierce_main_04.wav</ShortName>
+							<Path>SFX/ap_armor_pierce_main_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1054876827" Language="SFX">
+							<ShortName>ap_armor_pierce_main_01.wav</ShortName>
+							<Path>SFX/ap_armor_pierce_main_01_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2962309370" Name="hits_hits_tank_pc_ap_ap_armor_pierce_medium" ObjectPath="\Events\Hits\NPC_PC\hits_hits_tank_pc_ap_ap_armor_pierce_medium">
+					<IncludedMemoryFiles>
+						<File Id="372449668" Language="SFX">
+							<ShortName>ap_armor_pierce_medium_05.wav</ShortName>
+							<Path>SFX/ap_armor_pierce_medium_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="656257331" Language="SFX">
+							<ShortName>ap_armor_pierce_medium_01.wav</ShortName>
+							<Path>SFX/ap_armor_pierce_medium_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="773973905" Language="SFX">
+							<ShortName>ap_armor_pierce_medium_04.wav</ShortName>
+							<Path>SFX/ap_armor_pierce_medium_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="777779087" Language="SFX">
+							<ShortName>ap_armor_pierce_medium_03.wav</ShortName>
+							<Path>SFX/ap_armor_pierce_medium_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1034662024" Language="SFX">
+							<ShortName>ap_armor_pierce_medium_02.wav</ShortName>
+							<Path>SFX/ap_armor_pierce_medium_02_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="515085695" Name="hits_hits_tank_pc_ap_ap_critical_hit_main" ObjectPath="\Events\Hits\NPC_PC\hits_hits_tank_pc_ap_ap_critical_hit_main">
+					<IncludedMemoryFiles>
+						<File Id="390068569" Language="SFX">
+							<ShortName>852809909.wav</ShortName>
+							<Path>SFX/852809909_3F75BDB9.wem</Path>
+						</File>
+						<File Id="894798249" Language="SFX">
+							<ShortName>ap_critical_hit_main_01.wav</ShortName>
+							<Path>SFX/ap_critical_hit_main_01_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="841324293" Name="hits_hits_tank_pc_ap_ap_critical_hit_medium" ObjectPath="\Events\Hits\NPC_PC\hits_hits_tank_pc_ap_ap_critical_hit_medium">
+					<IncludedMemoryFiles>
+						<File Id="390068569" Language="SFX">
+							<ShortName>852809909.wav</ShortName>
+							<Path>SFX/852809909_3F75BDB9.wem</Path>
+						</File>
+						<File Id="479504560" Language="SFX">
+							<ShortName>ap_critical_hit_medium_01.wav</ShortName>
+							<Path>SFX/ap_critical_hit_medium_01_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1145352785" Name="hits_hits_tank_pc_ap_ap_ricochet_main" ObjectPath="\Events\Hits\NPC_PC\hits_hits_tank_pc_ap_ap_ricochet_main">
+					<IncludedMemoryFiles>
+						<File Id="421228653" Language="SFX">
+							<ShortName>ap_ricochet_main_03.wav</ShortName>
+							<Path>SFX/ap_ricochet_main_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="548520659" Language="SFX">
+							<ShortName>ap_ricochet_main_01.wav</ShortName>
+							<Path>SFX/ap_ricochet_main_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="583992371" Language="SFX">
+							<ShortName>ap_ricochet_main_02.wav</ShortName>
+							<Path>SFX/ap_ricochet_main_02_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3794791411" Name="hits_hits_tank_pc_ap_ap_ricochet_medium" ObjectPath="\Events\Hits\NPC_PC\hits_hits_tank_pc_ap_ap_ricochet_medium">
+					<IncludedMemoryFiles>
+						<File Id="109885776" Language="SFX">
+							<ShortName>ap_ricochet_medium_02.wav</ShortName>
+							<Path>SFX/ap_ricochet_medium_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="167910611" Language="SFX">
+							<ShortName>ap_ricochet_medium_01.wav</ShortName>
+							<Path>SFX/ap_ricochet_medium_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="638102514" Language="SFX">
+							<ShortName>ap_ricochet_medium_03.wav</ShortName>
+							<Path>SFX/ap_ricochet_medium_03_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3725668234" Name="hits_hits_tank_pc_he_he_armor_not_pierce_large" ObjectPath="\Events\Hits\NPC_PC\hits_hits_tank_pc_he_he_armor_not_pierce_large">
+					<IncludedMemoryFiles>
+						<File Id="319276345" Language="SFX">
+							<ShortName>he_armor_not_pierce_large_03.wav</ShortName>
+							<Path>SFX/he_armor_not_pierce_large_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="330823478" Language="SFX">
+							<ShortName>he_armor_not_pierce_large_04.wav</ShortName>
+							<Path>SFX/he_armor_not_pierce_large_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="705038940" Language="SFX">
+							<ShortName>he_armor_not_pierce_large_02.wav</ShortName>
+							<Path>SFX/he_armor_not_pierce_large_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="730517336" Language="SFX">
+							<ShortName>he_armor_not_pierce_large_01.wav</ShortName>
+							<Path>SFX/he_armor_not_pierce_large_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1057952957" Language="SFX">
+							<ShortName>5157477.wav</ShortName>
+							<Path>SFX/5157477_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2355107160" Name="hits_hits_tank_pc_he_he_armor_pierce_large" ObjectPath="\Events\Hits\NPC_PC\hits_hits_tank_pc_he_he_armor_pierce_large">
+					<IncludedMemoryFiles>
+						<File Id="361154830" Language="SFX">
+							<ShortName>he_armor_pierce_large_03.wav</ShortName>
+							<Path>SFX/he_armor_pierce_large_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="526365960" Language="SFX">
+							<ShortName>he_armor_pierce_large_02.wav</ShortName>
+							<Path>SFX/he_armor_pierce_large_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="912675231" Language="SFX">
+							<ShortName>he_armor_pierce_large_01.wav</ShortName>
+							<Path>SFX/he_armor_pierce_large_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1057952957" Language="SFX">
+							<ShortName>5157477.wav</ShortName>
+							<Path>SFX/5157477_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="251339937" Name="hits_hits_tank_pc_he_he_critical_hit_large" ObjectPath="\Events\Hits\NPC_PC\hits_hits_tank_pc_he_he_critical_hit_large">
+					<IncludedMemoryFiles>
+						<File Id="390068569" Language="SFX">
+							<ShortName>852809909.wav</ShortName>
+							<Path>SFX/852809909_3F75BDB9.wem</Path>
+						</File>
+						<File Id="908728020" Language="SFX">
+							<ShortName>he_critical_hit_large_01.wav</ShortName>
+							<Path>SFX/he_critical_hit_large_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1057952957" Language="SFX">
+							<ShortName>5157477.wav</ShortName>
+							<Path>SFX/5157477_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -3528,7 +3732,7 @@
 				<GameParameter Id="244438798" Name="RTPC_ext_settings_volume_master_music" ObjectPath="\Game Parameters\Settings\RTPC_ext_settings_volume_master_music"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3232033907" Language="SFX" Hash="2515824813">
+		<SoundBank Id="3232033907" Language="SFX" Hash="3525573388">
 			<ObjectPath>\SoundBanks\Default Work Unit\hits</ObjectPath>
 			<ShortName>hits</ShortName>
 			<Path>hits.bnk</Path>
@@ -4078,6 +4282,106 @@
 						<File Id="592329807" Language="SFX">
 							<ShortName>ap_ricochet_small_03.wav</ShortName>
 							<Path>SFX/ap_ricochet_small_03_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2131668540" Name="hits_hits_tank_npc_apcr_apcr_armor_not_pierce_huge" ObjectPath="\Events\Hits\PC_NPC\hits_hits_tank_npc_apcr_apcr_armor_not_pierce_huge">
+					<IncludedMemoryFiles>
+						<File Id="294515475" Language="SFX">
+							<ShortName>apcr_armor_not_pierce_huge_03.wav</ShortName>
+							<Path>SFX/apcr_armor_not_pierce_huge_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="541823862" Language="SFX">
+							<ShortName>apcr_armor_not_pierce_huge_01.wav</ShortName>
+							<Path>SFX/apcr_armor_not_pierce_huge_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="660355656" Language="SFX">
+							<ShortName>apcr_armor_not_pierce_huge_02.wav</ShortName>
+							<Path>SFX/apcr_armor_not_pierce_huge_02_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2542395042" Name="hits_hits_tank_npc_apcr_apcr_armor_not_pierce_large" ObjectPath="\Events\Hits\PC_NPC\hits_hits_tank_npc_apcr_apcr_armor_not_pierce_large">
+					<IncludedMemoryFiles>
+						<File Id="179864100" Language="SFX">
+							<ShortName>apcr_armor_not_pierce_large_03.wav</ShortName>
+							<Path>SFX/apcr_armor_not_pierce_large_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="753077841" Language="SFX">
+							<ShortName>apcr_armor_not_pierce_large_02.wav</ShortName>
+							<Path>SFX/apcr_armor_not_pierce_large_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="830123280" Language="SFX">
+							<ShortName>apcr_armor_not_pierce_large_01.wav</ShortName>
+							<Path>SFX/apcr_armor_not_pierce_large_01_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3332861710" Name="hits_hits_tank_npc_apcr_apcr_armor_not_pierce_main" ObjectPath="\Events\Hits\PC_NPC\hits_hits_tank_npc_apcr_apcr_armor_not_pierce_main">
+					<IncludedMemoryFiles>
+						<File Id="73723056" Language="SFX">
+							<ShortName>apcr_armor_not_pierce_main_04.wav</ShortName>
+							<Path>SFX/apcr_armor_not_pierce_main_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="83727095" Language="SFX">
+							<ShortName>apcr_armor_not_pierce_main_01.wav</ShortName>
+							<Path>SFX/apcr_armor_not_pierce_main_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="246640764" Language="SFX">
+							<ShortName>apcr_armor_not_pierce_main_03.wav</ShortName>
+							<Path>SFX/apcr_armor_not_pierce_main_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="784625115" Language="SFX">
+							<ShortName>apcr_armor_not_pierce_main_02.wav</ShortName>
+							<Path>SFX/apcr_armor_not_pierce_main_02_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="691017468" Name="hits_hits_tank_npc_apcr_apcr_armor_not_pierce_medium" ObjectPath="\Events\Hits\PC_NPC\hits_hits_tank_npc_apcr_apcr_armor_not_pierce_medium">
+					<IncludedMemoryFiles>
+						<File Id="178167380" Language="SFX">
+							<ShortName>apcr_armor_not_pierce_medium_02.wav</ShortName>
+							<Path>SFX/apcr_armor_not_pierce_medium_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="642524806" Language="SFX">
+							<ShortName>apcr_armor_not_pierce_medium_04.wav</ShortName>
+							<Path>SFX/apcr_armor_not_pierce_medium_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="898805187" Language="SFX">
+							<ShortName>apcr_armor_not_pierce_medium_03.wav</ShortName>
+							<Path>SFX/apcr_armor_not_pierce_medium_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="906304152" Language="SFX">
+							<ShortName>apcr_armor_not_pierce_medium_05.wav</ShortName>
+							<Path>SFX/apcr_armor_not_pierce_medium_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="965946260" Language="SFX">
+							<ShortName>apcr_armor_not_pierce_medium_01.wav</ShortName>
+							<Path>SFX/apcr_armor_not_pierce_medium_01_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2282985582" Name="hits_hits_tank_npc_apcr_apcr_armor_not_pierce_small" ObjectPath="\Events\Hits\PC_NPC\hits_hits_tank_npc_apcr_apcr_armor_not_pierce_small">
+					<IncludedMemoryFiles>
+						<File Id="8014109" Language="SFX">
+							<ShortName>apcr_armor_not_pierce_small_01.wav</ShortName>
+							<Path>SFX/apcr_armor_not_pierce_small_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="704725957" Language="SFX">
+							<ShortName>apcr_armor_not_pierce_small_02.wav</ShortName>
+							<Path>SFX/apcr_armor_not_pierce_small_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="887812633" Language="SFX">
+							<ShortName>apcr_armor_not_pierce_small_04.wav</ShortName>
+							<Path>SFX/apcr_armor_not_pierce_small_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="904155597" Language="SFX">
+							<ShortName>apcr_armor_not_pierce_small_05.wav</ShortName>
+							<Path>SFX/apcr_armor_not_pierce_small_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="927455771" Language="SFX">
+							<ShortName>apcr_armor_not_pierce_small_03.wav</ShortName>
+							<Path>SFX/apcr_armor_not_pierce_small_03_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

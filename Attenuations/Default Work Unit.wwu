@@ -93,6 +93,9 @@
 					</CurveUsageInfoList>
 				</Attenuation>
 				<Attenuation Name="NPC_HITS" ID="{3EAD5F27-9A64-48C1-A9C6-ECF860AC2485}" ShortID="303983645">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="550"/>
+					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -108,17 +111,19 @@
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>10</XPos>
+											<XPos>90</XPos>
 											<YPos>-100</YPos>
 											<Flags>0</Flags>
+											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>56</XPos>
+											<XPos>308</XPos>
 											<YPos>-200</YPos>
 											<Flags>0</Flags>
+											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>550</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -199,6 +204,9 @@
 					</CurveUsageInfoList>
 				</Attenuation>
 				<Attenuation Name="NPC_HITS_MID" ID="{189155EC-5883-4372-BF1C-FEF883392605}" ShortID="438659796">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="550"/>
+					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -214,25 +222,25 @@
 											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>10</XPos>
+											<XPos>80</XPos>
 											<YPos>-100</YPos>
 											<Flags>0</Flags>
-											<SegmentShape>SCurve</SegmentShape>
+											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>15</XPos>
-											<YPos>-8</YPos>
-											<Flags>0</Flags>
-											<SegmentShape>InvertedSCurve</SegmentShape>
-										</Point>
-										<Point>
-											<XPos>70</XPos>
-											<YPos>-20</YPos>
+											<XPos>82.5</XPos>
+											<YPos>-6</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>385</XPos>
+											<YPos>-15</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Log1</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>550</XPos>
 											<YPos>-45</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -261,6 +269,9 @@
 					</CurveUsageInfoList>
 				</Attenuation>
 				<Attenuation Name="NPC_HITS_FAR" ID="{50485955-BE83-4C6F-BCB5-B77D933E3C2A}" ShortID="192400095">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="550"/>
+					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -276,24 +287,24 @@
 											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>0.001</XPos>
+											<XPos>0.0055</XPos>
 											<YPos>-200</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>60</XPos>
-											<YPos>-20</YPos>
+											<XPos>330</XPos>
+											<YPos>-15</YPos>
 											<Flags>0</Flags>
-											<SegmentShape>SCurve</SegmentShape>
+											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>99.999</XPos>
-											<YPos>-8</YPos>
+											<XPos>549.9945</XPos>
+											<YPos>-6</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>550</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>

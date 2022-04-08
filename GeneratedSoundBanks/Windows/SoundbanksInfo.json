@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "E:\\Wwise\\WoTB_Sound_Mod_English\\",
-   "SourceFilesRoot": "E:\\Wwise\\WoTB_Sound_Mod_English\\.cache\\Windows\\",
-   "SoundBanksRoot": "E:\\Wwise\\WoTB_Sound_Mod_English\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "E:\\GitHub\\WWISE-PROJECT\\",
+   "SourceFilesRoot": "E:\\GitHub\\WWISE-PROJECT\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\GitHub\\WWISE-PROJECT\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "E:\\Wwise\\WoTB_Sound_Mod_English\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "E:\\GitHub\\WWISE-PROJECT\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -3332,7 +3332,7 @@
    {
     "Id": "1923507432",
     "Language": "SFX",
-    "Hash": "4202093102",
+    "Hash": "2918419660",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\hits_basic",
     "ShortName": "hits_basic",
     "Path": "hits_basic.bnk",
@@ -4245,6 +4245,323 @@
         "Language": "SFX",
         "ShortName": "expl_mid_tail_06.wav",
         "Path": "SFX/expl_mid_tail_06_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1928525938",
+      "Name": "hits_hits_tank_pc_ap_ap_armor_not_pierce_main",
+      "ObjectPath": "\\Events\\Hits\\NPC_PC\\hits_hits_tank_pc_ap_ap_armor_not_pierce_main",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "31174167",
+        "Language": "SFX",
+        "ShortName": "ap_armor_not_pierce_main_04.wav",
+        "Path": "SFX/ap_armor_not_pierce_main_04_3F75BDB9.wem"
+       },
+       {
+        "Id": "55812080",
+        "Language": "SFX",
+        "ShortName": "ap_armor_not_pierce_main_01.wav",
+        "Path": "SFX/ap_armor_not_pierce_main_01_3F75BDB9.wem"
+       },
+       {
+        "Id": "67958255",
+        "Language": "SFX",
+        "ShortName": "ap_armor_not_pierce_main_03.wav",
+        "Path": "SFX/ap_armor_not_pierce_main_03_3F75BDB9.wem"
+       },
+       {
+        "Id": "632658852",
+        "Language": "SFX",
+        "ShortName": "ap_armor_not_pierce_main_02.wav",
+        "Path": "SFX/ap_armor_not_pierce_main_02_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2210707304",
+      "Name": "hits_hits_tank_pc_ap_ap_armor_not_pierce_medium",
+      "ObjectPath": "\\Events\\Hits\\NPC_PC\\hits_hits_tank_pc_ap_ap_armor_not_pierce_medium",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "504683223",
+        "Language": "SFX",
+        "ShortName": "ap_armor_not_pierce_medium_01.wav",
+        "Path": "SFX/ap_armor_not_pierce_medium_01_3F75BDB9.wem"
+       },
+       {
+        "Id": "516559376",
+        "Language": "SFX",
+        "ShortName": "ap_armor_not_pierce_medium_05.wav",
+        "Path": "SFX/ap_armor_not_pierce_medium_05_3F75BDB9.wem"
+       },
+       {
+        "Id": "670395525",
+        "Language": "SFX",
+        "ShortName": "ap_armor_not_pierce_medium_02.wav",
+        "Path": "SFX/ap_armor_not_pierce_medium_02_3F75BDB9.wem"
+       },
+       {
+        "Id": "723932404",
+        "Language": "SFX",
+        "ShortName": "ap_armor_not_pierce_medium_04.wav",
+        "Path": "SFX/ap_armor_not_pierce_medium_04_3F75BDB9.wem"
+       },
+       {
+        "Id": "870919480",
+        "Language": "SFX",
+        "ShortName": "ap_armor_not_pierce_medium_03.wav",
+        "Path": "SFX/ap_armor_not_pierce_medium_03_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2323950944",
+      "Name": "hits_hits_tank_pc_ap_ap_armor_pierce_main",
+      "ObjectPath": "\\Events\\Hits\\NPC_PC\\hits_hits_tank_pc_ap_ap_armor_pierce_main",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "22953135",
+        "Language": "SFX",
+        "ShortName": "ap_armor_pierce_main_02.wav",
+        "Path": "SFX/ap_armor_pierce_main_02_3F75BDB9.wem"
+       },
+       {
+        "Id": "305452929",
+        "Language": "SFX",
+        "ShortName": "ap_armor_pierce_main_03.wav",
+        "Path": "SFX/ap_armor_pierce_main_03_3F75BDB9.wem"
+       },
+       {
+        "Id": "808920309",
+        "Language": "SFX",
+        "ShortName": "ap_armor_pierce_main_04.wav",
+        "Path": "SFX/ap_armor_pierce_main_04_3F75BDB9.wem"
+       },
+       {
+        "Id": "1054876827",
+        "Language": "SFX",
+        "ShortName": "ap_armor_pierce_main_01.wav",
+        "Path": "SFX/ap_armor_pierce_main_01_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2962309370",
+      "Name": "hits_hits_tank_pc_ap_ap_armor_pierce_medium",
+      "ObjectPath": "\\Events\\Hits\\NPC_PC\\hits_hits_tank_pc_ap_ap_armor_pierce_medium",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "372449668",
+        "Language": "SFX",
+        "ShortName": "ap_armor_pierce_medium_05.wav",
+        "Path": "SFX/ap_armor_pierce_medium_05_3F75BDB9.wem"
+       },
+       {
+        "Id": "656257331",
+        "Language": "SFX",
+        "ShortName": "ap_armor_pierce_medium_01.wav",
+        "Path": "SFX/ap_armor_pierce_medium_01_3F75BDB9.wem"
+       },
+       {
+        "Id": "773973905",
+        "Language": "SFX",
+        "ShortName": "ap_armor_pierce_medium_04.wav",
+        "Path": "SFX/ap_armor_pierce_medium_04_3F75BDB9.wem"
+       },
+       {
+        "Id": "777779087",
+        "Language": "SFX",
+        "ShortName": "ap_armor_pierce_medium_03.wav",
+        "Path": "SFX/ap_armor_pierce_medium_03_3F75BDB9.wem"
+       },
+       {
+        "Id": "1034662024",
+        "Language": "SFX",
+        "ShortName": "ap_armor_pierce_medium_02.wav",
+        "Path": "SFX/ap_armor_pierce_medium_02_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "515085695",
+      "Name": "hits_hits_tank_pc_ap_ap_critical_hit_main",
+      "ObjectPath": "\\Events\\Hits\\NPC_PC\\hits_hits_tank_pc_ap_ap_critical_hit_main",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "390068569",
+        "Language": "SFX",
+        "ShortName": "852809909.wav",
+        "Path": "SFX/852809909_3F75BDB9.wem"
+       },
+       {
+        "Id": "894798249",
+        "Language": "SFX",
+        "ShortName": "ap_critical_hit_main_01.wav",
+        "Path": "SFX/ap_critical_hit_main_01_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "841324293",
+      "Name": "hits_hits_tank_pc_ap_ap_critical_hit_medium",
+      "ObjectPath": "\\Events\\Hits\\NPC_PC\\hits_hits_tank_pc_ap_ap_critical_hit_medium",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "390068569",
+        "Language": "SFX",
+        "ShortName": "852809909.wav",
+        "Path": "SFX/852809909_3F75BDB9.wem"
+       },
+       {
+        "Id": "479504560",
+        "Language": "SFX",
+        "ShortName": "ap_critical_hit_medium_01.wav",
+        "Path": "SFX/ap_critical_hit_medium_01_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1145352785",
+      "Name": "hits_hits_tank_pc_ap_ap_ricochet_main",
+      "ObjectPath": "\\Events\\Hits\\NPC_PC\\hits_hits_tank_pc_ap_ap_ricochet_main",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "421228653",
+        "Language": "SFX",
+        "ShortName": "ap_ricochet_main_03.wav",
+        "Path": "SFX/ap_ricochet_main_03_3F75BDB9.wem"
+       },
+       {
+        "Id": "548520659",
+        "Language": "SFX",
+        "ShortName": "ap_ricochet_main_01.wav",
+        "Path": "SFX/ap_ricochet_main_01_3F75BDB9.wem"
+       },
+       {
+        "Id": "583992371",
+        "Language": "SFX",
+        "ShortName": "ap_ricochet_main_02.wav",
+        "Path": "SFX/ap_ricochet_main_02_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3794791411",
+      "Name": "hits_hits_tank_pc_ap_ap_ricochet_medium",
+      "ObjectPath": "\\Events\\Hits\\NPC_PC\\hits_hits_tank_pc_ap_ap_ricochet_medium",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "109885776",
+        "Language": "SFX",
+        "ShortName": "ap_ricochet_medium_02.wav",
+        "Path": "SFX/ap_ricochet_medium_02_3F75BDB9.wem"
+       },
+       {
+        "Id": "167910611",
+        "Language": "SFX",
+        "ShortName": "ap_ricochet_medium_01.wav",
+        "Path": "SFX/ap_ricochet_medium_01_3F75BDB9.wem"
+       },
+       {
+        "Id": "638102514",
+        "Language": "SFX",
+        "ShortName": "ap_ricochet_medium_03.wav",
+        "Path": "SFX/ap_ricochet_medium_03_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3725668234",
+      "Name": "hits_hits_tank_pc_he_he_armor_not_pierce_large",
+      "ObjectPath": "\\Events\\Hits\\NPC_PC\\hits_hits_tank_pc_he_he_armor_not_pierce_large",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "319276345",
+        "Language": "SFX",
+        "ShortName": "he_armor_not_pierce_large_03.wav",
+        "Path": "SFX/he_armor_not_pierce_large_03_3F75BDB9.wem"
+       },
+       {
+        "Id": "330823478",
+        "Language": "SFX",
+        "ShortName": "he_armor_not_pierce_large_04.wav",
+        "Path": "SFX/he_armor_not_pierce_large_04_3F75BDB9.wem"
+       },
+       {
+        "Id": "705038940",
+        "Language": "SFX",
+        "ShortName": "he_armor_not_pierce_large_02.wav",
+        "Path": "SFX/he_armor_not_pierce_large_02_3F75BDB9.wem"
+       },
+       {
+        "Id": "730517336",
+        "Language": "SFX",
+        "ShortName": "he_armor_not_pierce_large_01.wav",
+        "Path": "SFX/he_armor_not_pierce_large_01_3F75BDB9.wem"
+       },
+       {
+        "Id": "1057952957",
+        "Language": "SFX",
+        "ShortName": "5157477.wav",
+        "Path": "SFX/5157477_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2355107160",
+      "Name": "hits_hits_tank_pc_he_he_armor_pierce_large",
+      "ObjectPath": "\\Events\\Hits\\NPC_PC\\hits_hits_tank_pc_he_he_armor_pierce_large",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "361154830",
+        "Language": "SFX",
+        "ShortName": "he_armor_pierce_large_03.wav",
+        "Path": "SFX/he_armor_pierce_large_03_3F75BDB9.wem"
+       },
+       {
+        "Id": "526365960",
+        "Language": "SFX",
+        "ShortName": "he_armor_pierce_large_02.wav",
+        "Path": "SFX/he_armor_pierce_large_02_3F75BDB9.wem"
+       },
+       {
+        "Id": "912675231",
+        "Language": "SFX",
+        "ShortName": "he_armor_pierce_large_01.wav",
+        "Path": "SFX/he_armor_pierce_large_01_3F75BDB9.wem"
+       },
+       {
+        "Id": "1057952957",
+        "Language": "SFX",
+        "ShortName": "5157477.wav",
+        "Path": "SFX/5157477_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "251339937",
+      "Name": "hits_hits_tank_pc_he_he_critical_hit_large",
+      "ObjectPath": "\\Events\\Hits\\NPC_PC\\hits_hits_tank_pc_he_he_critical_hit_large",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "390068569",
+        "Language": "SFX",
+        "ShortName": "852809909.wav",
+        "Path": "SFX/852809909_3F75BDB9.wem"
+       },
+       {
+        "Id": "908728020",
+        "Language": "SFX",
+        "ShortName": "he_critical_hit_large_01.wav",
+        "Path": "SFX/he_critical_hit_large_01_3F75BDB9.wem"
+       },
+       {
+        "Id": "1057952957",
+        "Language": "SFX",
+        "ShortName": "5157477.wav",
+        "Path": "SFX/5157477_3F75BDB9.wem"
        }
       ]
      },
@@ -5919,7 +6236,7 @@
    {
     "Id": "3232033907",
     "Language": "SFX",
-    "Hash": "2515824813",
+    "Hash": "3525573388",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\hits",
     "ShortName": "hits",
     "Path": "hits.bnk",
@@ -6755,6 +7072,161 @@
         "Language": "SFX",
         "ShortName": "ap_ricochet_small_03.wav",
         "Path": "SFX/ap_ricochet_small_03_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2131668540",
+      "Name": "hits_hits_tank_npc_apcr_apcr_armor_not_pierce_huge",
+      "ObjectPath": "\\Events\\Hits\\PC_NPC\\hits_hits_tank_npc_apcr_apcr_armor_not_pierce_huge",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "294515475",
+        "Language": "SFX",
+        "ShortName": "apcr_armor_not_pierce_huge_03.wav",
+        "Path": "SFX/apcr_armor_not_pierce_huge_03_3F75BDB9.wem"
+       },
+       {
+        "Id": "541823862",
+        "Language": "SFX",
+        "ShortName": "apcr_armor_not_pierce_huge_01.wav",
+        "Path": "SFX/apcr_armor_not_pierce_huge_01_3F75BDB9.wem"
+       },
+       {
+        "Id": "660355656",
+        "Language": "SFX",
+        "ShortName": "apcr_armor_not_pierce_huge_02.wav",
+        "Path": "SFX/apcr_armor_not_pierce_huge_02_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2542395042",
+      "Name": "hits_hits_tank_npc_apcr_apcr_armor_not_pierce_large",
+      "ObjectPath": "\\Events\\Hits\\PC_NPC\\hits_hits_tank_npc_apcr_apcr_armor_not_pierce_large",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "179864100",
+        "Language": "SFX",
+        "ShortName": "apcr_armor_not_pierce_large_03.wav",
+        "Path": "SFX/apcr_armor_not_pierce_large_03_3F75BDB9.wem"
+       },
+       {
+        "Id": "753077841",
+        "Language": "SFX",
+        "ShortName": "apcr_armor_not_pierce_large_02.wav",
+        "Path": "SFX/apcr_armor_not_pierce_large_02_3F75BDB9.wem"
+       },
+       {
+        "Id": "830123280",
+        "Language": "SFX",
+        "ShortName": "apcr_armor_not_pierce_large_01.wav",
+        "Path": "SFX/apcr_armor_not_pierce_large_01_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3332861710",
+      "Name": "hits_hits_tank_npc_apcr_apcr_armor_not_pierce_main",
+      "ObjectPath": "\\Events\\Hits\\PC_NPC\\hits_hits_tank_npc_apcr_apcr_armor_not_pierce_main",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "73723056",
+        "Language": "SFX",
+        "ShortName": "apcr_armor_not_pierce_main_04.wav",
+        "Path": "SFX/apcr_armor_not_pierce_main_04_3F75BDB9.wem"
+       },
+       {
+        "Id": "83727095",
+        "Language": "SFX",
+        "ShortName": "apcr_armor_not_pierce_main_01.wav",
+        "Path": "SFX/apcr_armor_not_pierce_main_01_3F75BDB9.wem"
+       },
+       {
+        "Id": "246640764",
+        "Language": "SFX",
+        "ShortName": "apcr_armor_not_pierce_main_03.wav",
+        "Path": "SFX/apcr_armor_not_pierce_main_03_3F75BDB9.wem"
+       },
+       {
+        "Id": "784625115",
+        "Language": "SFX",
+        "ShortName": "apcr_armor_not_pierce_main_02.wav",
+        "Path": "SFX/apcr_armor_not_pierce_main_02_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "691017468",
+      "Name": "hits_hits_tank_npc_apcr_apcr_armor_not_pierce_medium",
+      "ObjectPath": "\\Events\\Hits\\PC_NPC\\hits_hits_tank_npc_apcr_apcr_armor_not_pierce_medium",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "178167380",
+        "Language": "SFX",
+        "ShortName": "apcr_armor_not_pierce_medium_02.wav",
+        "Path": "SFX/apcr_armor_not_pierce_medium_02_3F75BDB9.wem"
+       },
+       {
+        "Id": "642524806",
+        "Language": "SFX",
+        "ShortName": "apcr_armor_not_pierce_medium_04.wav",
+        "Path": "SFX/apcr_armor_not_pierce_medium_04_3F75BDB9.wem"
+       },
+       {
+        "Id": "898805187",
+        "Language": "SFX",
+        "ShortName": "apcr_armor_not_pierce_medium_03.wav",
+        "Path": "SFX/apcr_armor_not_pierce_medium_03_3F75BDB9.wem"
+       },
+       {
+        "Id": "906304152",
+        "Language": "SFX",
+        "ShortName": "apcr_armor_not_pierce_medium_05.wav",
+        "Path": "SFX/apcr_armor_not_pierce_medium_05_3F75BDB9.wem"
+       },
+       {
+        "Id": "965946260",
+        "Language": "SFX",
+        "ShortName": "apcr_armor_not_pierce_medium_01.wav",
+        "Path": "SFX/apcr_armor_not_pierce_medium_01_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2282985582",
+      "Name": "hits_hits_tank_npc_apcr_apcr_armor_not_pierce_small",
+      "ObjectPath": "\\Events\\Hits\\PC_NPC\\hits_hits_tank_npc_apcr_apcr_armor_not_pierce_small",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "8014109",
+        "Language": "SFX",
+        "ShortName": "apcr_armor_not_pierce_small_01.wav",
+        "Path": "SFX/apcr_armor_not_pierce_small_01_3F75BDB9.wem"
+       },
+       {
+        "Id": "704725957",
+        "Language": "SFX",
+        "ShortName": "apcr_armor_not_pierce_small_02.wav",
+        "Path": "SFX/apcr_armor_not_pierce_small_02_3F75BDB9.wem"
+       },
+       {
+        "Id": "887812633",
+        "Language": "SFX",
+        "ShortName": "apcr_armor_not_pierce_small_04.wav",
+        "Path": "SFX/apcr_armor_not_pierce_small_04_3F75BDB9.wem"
+       },
+       {
+        "Id": "904155597",
+        "Language": "SFX",
+        "ShortName": "apcr_armor_not_pierce_small_05.wav",
+        "Path": "SFX/apcr_armor_not_pierce_small_05_3F75BDB9.wem"
+       },
+       {
+        "Id": "927455771",
+        "Language": "SFX",
+        "ShortName": "apcr_armor_not_pierce_small_03.wav",
+        "Path": "SFX/apcr_armor_not_pierce_small_03_3F75BDB9.wem"
        }
       ]
      },
