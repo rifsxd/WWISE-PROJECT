@@ -223,6 +223,7 @@
 				</SoundBank>
 				<SoundBank Name="hits" ID="{92A5DA7F-CC5A-4FE6-BC68-9C7D60814E4D}">
 					<ObjectInclusionList>
+						<ObjectRef Name="RXD_DEV" ID="{3EE472D9-53B8-400D-8A07-BA76A5E60164}" WorkUnitID="{5D196377-55B1-4B35-B61E-70B8120B1A9C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="hits_surface_hits_small_hit_sand_small" ID="{DEC14C4E-90AE-401D-94BC-262A1BC489DC}" WorkUnitID="{2C2AB564-0DCB-4B87-9014-EA8196C0307F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="hits_surface_hits_small_hit_ground_small" ID="{2712016F-EE04-4055-893E-905FCE7DF641}" WorkUnitID="{2C2AB564-0DCB-4B87-9014-EA8196C0307F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="hits_hits_tank_pc_apcr_apcr_armor_not_pierce_medium" ID="{5C51C61A-3E32-4059-B892-10F18CC298A9}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
@@ -460,6 +461,7 @@
 				</SoundBank>
 				<SoundBank Name="hits_basic" ID="{B1AD45CE-FC5D-4D02-B93E-B60740403870}">
 					<ObjectInclusionList>
+						<ObjectRef Name="RXD_DEV" ID="{3EE472D9-53B8-400D-8A07-BA76A5E60164}" WorkUnitID="{5D196377-55B1-4B35-B61E-70B8120B1A9C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="hits_surface_hits_main_hit_metal_main" ID="{C1EEF105-5B7C-4055-9EA6-99669ED002E3}" WorkUnitID="{75F0FF02-41D3-4049-9272-627B638A0DEA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="hits_hits_tank_npc_ap_ap_armor_pierce_main" ID="{3B4554A2-CF49-412F-9DDC-C1137E34F59A}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="hits_hits_tank_pc_ap_ap_ricochet_medium" ID="{BA2C791F-1C2E-4137-9609-9F3BA73B3299}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>

@@ -228,13 +228,13 @@
 											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>82.5</XPos>
-											<YPos>-6</YPos>
+											<XPos>80.001</XPos>
+											<YPos>0</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>385</XPos>
+											<XPos>330</XPos>
 											<YPos>-15</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Log1</SegmentShape>
@@ -293,6 +293,12 @@
 											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
+											<XPos>80</XPos>
+											<YPos>-200</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Log1</SegmentShape>
+										</Point>
+										<Point>
 											<XPos>330</XPos>
 											<YPos>-15</YPos>
 											<Flags>0</Flags>
@@ -300,7 +306,7 @@
 										</Point>
 										<Point>
 											<XPos>549.9945</XPos>
-											<YPos>-6</YPos>
+											<YPos>0</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>

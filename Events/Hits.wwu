@@ -6,6 +6,17 @@
 				<WorkUnit Name="PC_NPC" ID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" PersistMode="Reference"/>
 				<WorkUnit Name="NPC_PC" ID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" PersistMode="Reference"/>
 				<WorkUnit Name="Surface" ID="{383C17DB-877A-4145-9FDB-8C115E5B8817}" PersistMode="Reference"/>
+				<Event Name="RXD_DEV" ID="{3EE472D9-53B8-400D-8A07-BA76A5E60164}">
+					<ChildrenList>
+						<Action Name="" ID="{524D1DB4-3E39-46FD-84E7-CB0C192B626E}" ShortID="652807636">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RXD_DEV" ID="{4670C9D3-4CA9-4444-A06F-F9FD6946A852}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

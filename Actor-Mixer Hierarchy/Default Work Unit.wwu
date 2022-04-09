@@ -2890,6 +2890,11 @@
 									<ChildrenList>
 										<Sound Name="sixth_01" ID="{CD41E222-1ADD-4DF3-8165-BE59D8AFF537}" ShortID="878006695">
 											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="IsVoice" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
@@ -2940,6 +2945,11 @@
 										</Sound>
 										<Sound Name="sixth_03" ID="{EA603EF9-30BA-411F-9F75-64FEE4041AFB}" ShortID="248458795">
 											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="IsVoice" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
@@ -37290,6 +37300,52 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</ActorMixer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="RXD_COPYRIGHT" ID="{2DC6FA7D-DF6C-473F-A583-653612E5040E}" ShortID="403117680">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="RXD_DEV" ID="{4670C9D3-4CA9-4444-A06F-F9FD6946A852}" ShortID="1006476396">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="RXD_DEV" ID="{08D190D3-0808-41AB-B776-D8E0207A6A77}" ShortID="991448557">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RXD_DEV" ID="{3A009A76-92C6-4037-9674-8C1EFDA6B932}">
+													<Language>SFX</Language>
+													<AudioFile>RXD.DEV.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="200535613"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RXD_DEV" ID="{3A009A76-92C6-4037-9674-8C1EFDA6B932}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

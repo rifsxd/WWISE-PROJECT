@@ -2593,6 +2593,7 @@
    {
     "Id": "1501193180",
     "Language": "English(US)",
+    "Hash": "926739177",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\ui_battle",
     "ShortName": "ui_battle",
     "Path": "English(US)/ui_battle.bnk",
@@ -3332,7 +3333,7 @@
    {
     "Id": "1923507432",
     "Language": "SFX",
-    "Hash": "2918419660",
+    "Hash": "3571879692",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\hits_basic",
     "ShortName": "hits_basic",
     "Path": "hits_basic.bnk",
@@ -5497,6 +5498,19 @@
         "Path": "SFX/surface_hits_wood_fall_02_3F75BDB9.wem"
        }
       ]
+     },
+     {
+      "Id": "394955153",
+      "Name": "RXD_DEV",
+      "ObjectPath": "\\Events\\Hits\\RXD_DEV",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "200535613",
+        "Language": "SFX",
+        "ShortName": "RXD.DEV.wav",
+        "Path": "SFX/RXD.DEV_3F75BDB9.wem"
+       }
+      ]
      }
     ]
    },
@@ -6236,7 +6250,7 @@
    {
     "Id": "3232033907",
     "Language": "SFX",
-    "Hash": "3525573388",
+    "Hash": "3032397045",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\hits",
     "ShortName": "hits",
     "Path": "hits.bnk",
@@ -14285,6 +14299,19 @@
         "Path": "SFX/surface_hits_wood_fall_02_3F75BDB9.wem"
        }
       ]
+     },
+     {
+      "Id": "394955153",
+      "Name": "RXD_DEV",
+      "ObjectPath": "\\Events\\Hits\\RXD_DEV",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "200535613",
+        "Language": "SFX",
+        "ShortName": "RXD.DEV.wav",
+        "Path": "SFX/RXD.DEV_3F75BDB9.wem"
+       }
+      ]
      }
     ]
    },
@@ -16117,6 +16144,7 @@
    {
     "Id": "3888261067",
     "Language": "English(US)",
+    "Hash": "1810530400",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\ui_battle_basic",
     "ShortName": "ui_battle_basic",
     "Path": "English(US)/ui_battle_basic.bnk",
@@ -16300,20 +16328,6 @@
         "UsingReferenceLanguageAsStandIn": "true",
         "ShortName": "sixth_02.wav",
         "Path": "Voices/ja/sixth_02_3F75BDB9.wem"
-       },
-       {
-        "Id": "297789236",
-        "Language": "English(US)",
-        "UsingReferenceLanguageAsStandIn": "true",
-        "ShortName": "sixth_03.wav",
-        "Path": "Voices/ja/sixth_03_3F75BDB9.wem"
-       },
-       {
-        "Id": "964788148",
-        "Language": "English(US)",
-        "UsingReferenceLanguageAsStandIn": "true",
-        "ShortName": "sixth_01.wav",
-        "Path": "Voices/ja/sixth_01_3F75BDB9.wem"
        }
       ]
      },
@@ -16593,18 +16607,6 @@
         "Language": "ja",
         "ShortName": "sixth_02.wav",
         "Path": "Voices/ja/sixth_02_3F75BDB9.wem"
-       },
-       {
-        "Id": "297789236",
-        "Language": "ja",
-        "ShortName": "sixth_03.wav",
-        "Path": "Voices/ja/sixth_03_3F75BDB9.wem"
-       },
-       {
-        "Id": "964788148",
-        "Language": "ja",
-        "ShortName": "sixth_01.wav",
-        "Path": "Voices/ja/sixth_01_3F75BDB9.wem"
        }
       ]
      },
@@ -17810,6 +17812,7 @@
    {
     "Id": "4223252685",
     "Language": "English(US)",
+    "Hash": "1805151144",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\ui_chat_quick_commands",
     "ShortName": "ui_chat_quick_commands",
     "Path": "English(US)/ui_chat_quick_commands.bnk",

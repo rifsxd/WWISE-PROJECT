@@ -1443,7 +1443,7 @@
 				<GameParameter Id="3753593413" Name="hover" ObjectPath="\Game Parameters\Default Work Unit\Hanger\hover"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1501193180" Language="English(US)">
+		<SoundBank Id="1501193180" Language="English(US)" Hash="926739177">
 			<ObjectPath>\SoundBanks\Default Work Unit\ui_battle</ObjectPath>
 			<ShortName>ui_battle</ShortName>
 			<Path>English(US)/ui_battle.bnk</Path>
@@ -1882,7 +1882,7 @@
 				<Event Id="1607973810" Name="Music_aftershot_victory" ObjectPath="\Events\LoadBGM\Music\Music_Resultscreen\Music_aftershot_victory"/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1923507432" Language="SFX" Hash="2918419660">
+		<SoundBank Id="1923507432" Language="SFX" Hash="3571879692">
 			<ObjectPath>\SoundBanks\Default Work Unit\hits_basic</ObjectPath>
 			<ShortName>hits_basic</ShortName>
 			<Path>hits_basic.bnk</Path>
@@ -3299,6 +3299,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="394955153" Name="RXD_DEV" ObjectPath="\Events\Hits\RXD_DEV">
+					<IncludedMemoryFiles>
+						<File Id="200535613" Language="SFX">
+							<ShortName>RXD.DEV.wav</ShortName>
+							<Path>SFX/RXD.DEV_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 		</SoundBank>
 		<SoundBank Id="2021218106" Language="SFX">
@@ -3732,7 +3740,7 @@
 				<GameParameter Id="244438798" Name="RTPC_ext_settings_volume_master_music" ObjectPath="\Game Parameters\Settings\RTPC_ext_settings_volume_master_music"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3232033907" Language="SFX" Hash="3525573388">
+		<SoundBank Id="3232033907" Language="SFX" Hash="3032397045">
 			<ObjectPath>\SoundBanks\Default Work Unit\hits</ObjectPath>
 			<ShortName>hits</ShortName>
 			<Path>hits.bnk</Path>
@@ -9001,6 +9009,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="394955153" Name="RXD_DEV" ObjectPath="\Events\Hits\RXD_DEV">
+					<IncludedMemoryFiles>
+						<File Id="200535613" Language="SFX">
+							<ShortName>RXD.DEV.wav</ShortName>
+							<Path>SFX/RXD.DEV_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 		</SoundBank>
 		<SoundBank Id="3457466987" Language="SFX">
@@ -10117,7 +10133,7 @@
 				<GameParameter Id="2064811990" Name="RTPC_int_wpn_600m_npc" ObjectPath="\Game Parameters\Weapon\RTPC_int_wpn_600m_npc"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3888261067" Language="English(US)">
+		<SoundBank Id="3888261067" Language="English(US)" Hash="1810530400">
 			<ObjectPath>\SoundBanks\Default Work Unit\ui_battle_basic</ObjectPath>
 			<ShortName>ui_battle_basic</ShortName>
 			<Path>English(US)/ui_battle_basic.bnk</Path>
@@ -10223,14 +10239,6 @@
 						<File Id="210474803" Language="English(US)" UsingReferenceLanguageAsStandIn="true">
 							<ShortName>sixth_02.wav</ShortName>
 							<Path>Voices/ja/sixth_02_3F75BDB9.wem</Path>
-						</File>
-						<File Id="297789236" Language="English(US)" UsingReferenceLanguageAsStandIn="true">
-							<ShortName>sixth_03.wav</ShortName>
-							<Path>Voices/ja/sixth_03_3F75BDB9.wem</Path>
-						</File>
-						<File Id="964788148" Language="English(US)" UsingReferenceLanguageAsStandIn="true">
-							<ShortName>sixth_01.wav</ShortName>
-							<Path>Voices/ja/sixth_01_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -10401,14 +10409,6 @@
 						<File Id="210474803" Language="ja">
 							<ShortName>sixth_02.wav</ShortName>
 							<Path>Voices/ja/sixth_02_3F75BDB9.wem</Path>
-						</File>
-						<File Id="297789236" Language="ja">
-							<ShortName>sixth_03.wav</ShortName>
-							<Path>Voices/ja/sixth_03_3F75BDB9.wem</Path>
-						</File>
-						<File Id="964788148" Language="ja">
-							<ShortName>sixth_01.wav</ShortName>
-							<Path>Voices/ja/sixth_01_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -11144,7 +11144,7 @@
 				<GameParameter Id="244438798" Name="RTPC_ext_settings_volume_master_music" ObjectPath="\Game Parameters\Settings\RTPC_ext_settings_volume_master_music"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4223252685" Language="English(US)">
+		<SoundBank Id="4223252685" Language="English(US)" Hash="1805151144">
 			<ObjectPath>\SoundBanks\Default Work Unit\ui_chat_quick_commands</ObjectPath>
 			<ShortName>ui_chat_quick_commands</ShortName>
 			<Path>English(US)/ui_chat_quick_commands.bnk</Path>
