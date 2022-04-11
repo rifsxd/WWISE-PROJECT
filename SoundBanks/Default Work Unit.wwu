@@ -509,6 +509,214 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<Folder Name="WOTPC_Music" ID="{65F9D57C-9071-4BEC-8AD4-2661323F7F74}" ShortID="445232987"/>
+				<Folder Name="RXD" ID="{7B46C221-7302-4BF7-8553-FDE7BF3192F9}" ShortID="712208734">
+					<ChildrenList>
+						<SoundBank Name="RXD_HITS_SFX" ID="{0EC72C55-48EF-472D-9EA5-250397328D3D}">
+							<ObjectInclusionList>
+								<ObjectRef Name="hits_surface_hits_small_hit_sand_small" ID="{DEC14C4E-90AE-401D-94BC-262A1BC489DC}" WorkUnitID="{2C2AB564-0DCB-4B87-9014-EA8196C0307F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_main_hit_metal_main" ID="{C1EEF105-5B7C-4055-9EA6-99669ED002E3}" WorkUnitID="{75F0FF02-41D3-4049-9272-627B638A0DEA}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_small_hit_ground_small" ID="{2712016F-EE04-4055-893E-905FCE7DF641}" WorkUnitID="{2C2AB564-0DCB-4B87-9014-EA8196C0307F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_apcr_apcr_armor_not_pierce_medium" ID="{5C51C61A-3E32-4059-B892-10F18CC298A9}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_apcr_apcr_armor_not_pierce_main" ID="{959AABAD-5D46-4063-9041-1543326F38CA}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_hc_hc_armor_pierce_medium" ID="{D279450A-B31A-407D-9F7E-3C63C38E71FA}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_apcr_apcr_armor_not_pierce_main" ID="{FE08F517-A0F9-40C6-B033-301371E69E9F}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_apcr_apcr_armor_not_pierce_small" ID="{68B9611D-9957-411E-9817-79F90EBC83B9}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_apcr_apcr_armor_not_pierce_large" ID="{A8E3A06B-A5CF-4120-9F97-E740A6CD6D68}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_ap_ap_armor_pierce_main" ID="{3B4554A2-CF49-412F-9DDC-C1137E34F59A}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_ap_ap_ricochet_medium" ID="{BA2C791F-1C2E-4137-9609-9F3BA73B3299}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_ap_ap_armor_not_pierce_main" ID="{CE7422A3-1041-4138-8CB6-C3928BB4F8E9}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_ap_ap_critical_hit_small" ID="{B30BDE41-F918-415A-BD23-702E150F5A47}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_small_hit_snow_fougasse_small" ID="{35862DCA-F08D-4166-BF14-AEC0853D40BB}" WorkUnitID="{2C2AB564-0DCB-4B87-9014-EA8196C0307F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_large_hit_stone_large" ID="{EDCE8479-4059-416E-9644-17490F17DAE4}" WorkUnitID="{9C4671D0-9FD3-4B82-A3AA-6FA6271396EE}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_ap_ap_ricochet_large" ID="{198E34FF-8362-41A6-A7A1-C59B6AFF98D5}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_hc_hc_armor_not_pierce_main" ID="{7CDB558A-84C0-41AB-84D4-6361D47D7B55}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_ap_ap_critical_hit_huge" ID="{9C6C4B06-321F-41CB-8083-AD819DF47A72}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_medium_hit_ground_medium" ID="{C573EEBA-1C15-41D4-A231-9ED6EE21A0B8}" WorkUnitID="{48337209-68B7-4CDA-9291-E93300BA44B4}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_ap_ap_ricochet_main" ID="{F71A0CDD-6E31-41E0-B719-62677E8B7144}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_huge_hit_sand_fougasse_huge" ID="{2A6588D1-BA51-41EB-AD7E-3F78DA5EEAE4}" WorkUnitID="{8C8328D1-7068-43B6-BFAE-7273A1BE8A4F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_main_hit_water_main" ID="{52B8CE7F-FD1D-41F2-AD64-48B2A51CDCB5}" WorkUnitID="{75F0FF02-41D3-4049-9272-627B638A0DEA}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_hc_hc_armor_not_pierce_main" ID="{5BFDAE65-14E4-41F8-B526-3F40858FFE84}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_he_he_armor_not_pierce_huge" ID="{5DAE32C5-202C-421F-B305-AC6150193139}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_hc_hc_armor_not_pierce_small" ID="{2D2481CA-1BB6-4240-80D7-082DB6A6589C}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_he_he_armor_pierce_small" ID="{CF04353E-8FCB-4255-8803-7A616BB29276}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_ap_ap_armor_not_pierce_small" ID="{BD47A1DC-F6F6-4259-A313-4F4F5B756A63}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_medium_hit_wood_fougasse_medium" ID="{E2447624-BE7F-42C7-B1B6-CC4C3343031E}" WorkUnitID="{48337209-68B7-4CDA-9291-E93300BA44B4}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_apcr_apcr_ricochet_small" ID="{7101EEC8-BE9F-42C7-AE6E-C8D4246F10B0}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_huge_hit_snow_huge" ID="{7F1644CD-9EC7-42CA-BCCF-996EAD1D2643}" WorkUnitID="{8C8328D1-7068-43B6-BFAE-7273A1BE8A4F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_huge_hit_metal_fougasse_huge" ID="{EA104BCC-7316-42D7-9AFC-F0983A90C120}" WorkUnitID="{8C8328D1-7068-43B6-BFAE-7273A1BE8A4F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_ap_ap_critical_hit_small" ID="{20E25913-B017-42DE-A6BE-6F9A752ACEB1}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_ap_ap_armor_not_pierce_main" ID="{4006AEEB-B722-42E2-9A34-255756DAA894}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_main_hit_wood_fougasse_main" ID="{0A234FCA-7EB8-4319-BDA7-0795F84C26C1}" WorkUnitID="{75F0FF02-41D3-4049-9272-627B638A0DEA}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_hc_hc_armor_pierce_large" ID="{F8583CAD-62FB-431E-81CA-E235B2D9F3B9}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_hc_hc_armor_not_pierce_large" ID="{63267564-7EB8-4321-B7FD-9C3524C74E2B}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_medium_hit_sand_fougasse_medium" ID="{EBFAAA24-E8D8-4338-864A-DEE7A884633F}" WorkUnitID="{48337209-68B7-4CDA-9291-E93300BA44B4}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_medium_hit_water_medium" ID="{FE3AFC61-39BC-433F-A3E6-8FA7121F3A0E}" WorkUnitID="{48337209-68B7-4CDA-9291-E93300BA44B4}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_hc_hc_critical_hit_main" ID="{7AAFC434-CAE4-4348-B90A-C1DE68F791FC}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_hc_hc_armor_not_pierce_small" ID="{CC3AD99B-8EFE-4362-9E1F-A36FF06438DA}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_he_he_armor_not_pierce_medium" ID="{68C1C169-D72A-437A-BE4C-A1CA407F07E5}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_apcr_apcr_armor_not_pierce_huge" ID="{CE193153-1C39-439A-AA59-3F5979FC3990}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_he_he_armor_pierce_huge" ID="{E2B8A39E-5451-43A4-826A-9127FD82A879}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_apcr_apcr_ricochet_large" ID="{DF574C29-F58E-43B1-B2C0-08E4750C46ED}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_main_hit_snow_main" ID="{549CC976-4D33-43B6-8915-3219151CEF06}" WorkUnitID="{75F0FF02-41D3-4049-9272-627B638A0DEA}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_hc_hc_armor_not_pierce_medium" ID="{B1AC00DC-684A-43BF-A5C4-2E6FD12619CB}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_hc_hc_critical_hit_main" ID="{C6B1E771-4977-43CA-B653-7F2A86A3EF9C}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_he_he_armor_pierce_small" ID="{572B9BDE-5A80-43FE-9C0F-EFE5CE2F7A8D}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_ap_ap_armor_not_pierce_huge" ID="{A10D21A0-605D-4414-B273-1CE1BDC7DF66}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_hc_hc_armor_not_pierce_large" ID="{62550BB0-C0F8-4420-81FD-B9DE3C9B190F}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_hc_hc_critical_hit_large" ID="{7FC6D244-CC6A-4436-A5DD-0AB565123DC7}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_hc_hc_critical_hit_medium" ID="{CA5863AD-2DC5-4444-9B32-ACC83E653E3D}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_main_hit_ground_fougasse_main" ID="{0C445802-3F4E-446E-8082-37B56673CD2B}" WorkUnitID="{75F0FF02-41D3-4049-9272-627B638A0DEA}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_medium_hit_stone_medium" ID="{9E23EB96-5602-44B0-B9F1-C5698F3D3F29}" WorkUnitID="{48337209-68B7-4CDA-9291-E93300BA44B4}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_hc_hc_armor_not_pierce_huge" ID="{C966AD69-9637-44D8-979D-0EFDAB246136}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_main_hit_sand_main" ID="{BEF9913F-23F6-44EF-AF0B-37A2F43721F6}" WorkUnitID="{75F0FF02-41D3-4049-9272-627B638A0DEA}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_small_hit_stone_fougasse_small" ID="{00C66D19-6550-44F2-AF5F-0206C1EF9F39}" WorkUnitID="{2C2AB564-0DCB-4B87-9014-EA8196C0307F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_main_hit_sand_fougasse_main" ID="{4CBF5BF5-0E58-456B-9782-A79E030CB542}" WorkUnitID="{75F0FF02-41D3-4049-9272-627B638A0DEA}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_apcr_apcr_ricochet_medium" ID="{6A56E418-202D-4573-8723-9FB06538BFD2}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_he_he_critical_hit_main" ID="{0EEF5064-AFE8-4590-9A36-FE92F49904A7}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_ap_ap_armor_pierce_huge" ID="{547EBBC7-5C66-4595-989A-518B887C9E90}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_hc_hc_armor_pierce_small" ID="{29A757B9-2AA4-459B-8F00-9E03F0AD91A4}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_huge_hit_metal_huge" ID="{83DAD45C-A6F1-459E-AE11-E13D56BC1B5A}" WorkUnitID="{8C8328D1-7068-43B6-BFAE-7273A1BE8A4F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_medium_hit_metal_medium" ID="{FD82F2C6-A62D-45BD-9839-EB54760D9A7B}" WorkUnitID="{48337209-68B7-4CDA-9291-E93300BA44B4}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_ap_ap_armor_not_pierce_large" ID="{B023A760-12A1-45F0-9151-AD5F59A72974}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_apcr_apcr_armor_not_pierce_huge" ID="{472155EC-59F1-45F1-991E-E37B9F4BC378}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_he_he_armor_pierce_large" ID="{87AA053E-C76D-4609-8B19-9950FA8D356A}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_large_hit_sand_fougasse_large" ID="{54535837-EEEB-463A-AB10-8CDC4248068C}" WorkUnitID="{9C4671D0-9FD3-4B82-A3AA-6FA6271396EE}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_ap_ap_ricochet_huge" ID="{335440DD-6D30-463B-84DC-CA0E19965E48}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_hc_hc_armor_pierce_huge" ID="{E9530BCA-7BA7-463D-BC71-E931352712CA}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_large_hit_wood_fougasse_large" ID="{6B401865-F84C-463E-B065-7CAD34D869B9}" WorkUnitID="{9C4671D0-9FD3-4B82-A3AA-6FA6271396EE}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_he_he_armor_not_pierce_medium" ID="{ED955246-0A22-4670-8745-A5BD2C7A7BDE}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_he_he_armor_not_pierce_small" ID="{DCC35B81-62FA-4670-A34C-60CF1D4B5203}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_he_he_armor_not_pierce_large" ID="{01B73929-CAD3-4671-913D-FC5860B9CD4C}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_medium_hit_stone_fougasse_medium" ID="{D96EDDAB-EDEC-467A-883D-FCC7708A03E3}" WorkUnitID="{48337209-68B7-4CDA-9291-E93300BA44B4}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_huge_hit_snow_fougasse_huge" ID="{0B904744-2245-4681-ACAB-4C4E71E652F6}" WorkUnitID="{8C8328D1-7068-43B6-BFAE-7273A1BE8A4F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_huge_hit_wood_fougasse_huge" ID="{E8CCACD4-8A86-4685-A3EC-85BA50FF0D96}" WorkUnitID="{8C8328D1-7068-43B6-BFAE-7273A1BE8A4F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_ap_ap_critical_hit_medium" ID="{F3DA48F5-1971-4695-9EBE-269B5AE98E25}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_ap_ap_critical_hit_large" ID="{93002FE0-D560-46AA-9DEA-2380609D6745}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_he_he_armor_pierce_huge" ID="{1652462F-BC4D-46BB-873F-929E9ADD0930}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_medium_hit_sand_medium" ID="{9BBE9BC0-0099-46C6-A0C7-B0FB45D8650A}" WorkUnitID="{48337209-68B7-4CDA-9291-E93300BA44B4}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_main_hit_metal_fougasse_main" ID="{0AC0FB5E-0755-4715-9093-9B0A86C27D2E}" WorkUnitID="{75F0FF02-41D3-4049-9272-627B638A0DEA}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_huge_hit_stone_huge" ID="{7F45415D-6747-471B-8D02-0AA197DAE4A6}" WorkUnitID="{8C8328D1-7068-43B6-BFAE-7273A1BE8A4F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_main_hit_water_fougasse_main" ID="{DACBE5AF-BEC2-4733-BBBF-797B6BC6337B}" WorkUnitID="{75F0FF02-41D3-4049-9272-627B638A0DEA}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_he_he_armor_pierce_main" ID="{1CA01291-42DE-4738-AC08-1323A924E14C}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_hc_hc_critical_hit_large" ID="{584066C2-4A6B-4739-BE51-1FA6F4EFCB86}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_ap_ap_ricochet_small" ID="{A64A1EB4-E546-473C-B97F-20671443EC9A}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_small_hit_metal_small" ID="{2D666F65-B3CC-474F-9208-61579DC1E040}" WorkUnitID="{2C2AB564-0DCB-4B87-9014-EA8196C0307F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_apcr_apcr_ricochet_huge" ID="{5309FB5A-790E-4753-BD9E-EEBF8E82D324}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_medium_hit_snow_medium" ID="{3DD8EA85-03A7-4775-A2F6-95C4E57DBFC9}" WorkUnitID="{48337209-68B7-4CDA-9291-E93300BA44B4}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_ap_ap_armor_not_pierce_large" ID="{260C5E12-7B2E-4779-AA0F-2CAB0BCFA45C}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_small_hit_wood_small" ID="{8B195A4B-0F65-479B-A9E7-7DDB808154EA}" WorkUnitID="{2C2AB564-0DCB-4B87-9014-EA8196C0307F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_large_hit_water_fougasse_large" ID="{1CA4947D-E601-47F1-9B3A-FCD5C7667035}" WorkUnitID="{9C4671D0-9FD3-4B82-A3AA-6FA6271396EE}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_he_he_critical_hit_medium" ID="{E4352776-5BF5-4803-B2B0-ECA459E985D2}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_medium_hit_metal_fougasse_medium" ID="{BCACAC7B-689B-480D-B57C-191515DD37F1}" WorkUnitID="{48337209-68B7-4CDA-9291-E93300BA44B4}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_ap_ap_armor_not_pierce_medium" ID="{18761198-50EF-4859-AC5A-414548CE910A}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_small_hit_ground_fougasse_small" ID="{55BBC3DD-FB4C-4859-8072-D7A34A638BD6}" WorkUnitID="{2C2AB564-0DCB-4B87-9014-EA8196C0307F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_ap_ap_armor_not_pierce_medium" ID="{EDFF23B4-EF85-4863-BAE2-A141BEDA8F3E}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_ap_ap_critical_hit_medium" ID="{D927A20B-589A-486D-AC6D-ADB288BBBC4D}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_small_hit_snow_small" ID="{752981B9-2506-4892-8AAF-5EBDACD3DFD7}" WorkUnitID="{2C2AB564-0DCB-4B87-9014-EA8196C0307F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_hc_hc_critical_hit_huge" ID="{681339CB-A53F-48A4-987C-96BCF110BC48}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_ap_ap_ricochet_medium" ID="{1B628366-5C43-48C5-9103-E0D8824B34E2}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_hc_hc_armor_pierce_main" ID="{41E02DC1-D2D4-48CC-9B07-6A7A1C790962}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_apcr_apcr_ricochet_main" ID="{B40AF7F8-84BD-48D3-AC58-B6F435F04A93}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_large_hit_wood_large" ID="{402F52E0-7A5F-48D8-B50D-D22A08E11932}" WorkUnitID="{9C4671D0-9FD3-4B82-A3AA-6FA6271396EE}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_huge_hit_sand_huge" ID="{AB427341-390F-48DB-9535-6E9FA923A513}" WorkUnitID="{8C8328D1-7068-43B6-BFAE-7273A1BE8A4F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_he_he_armor_not_pierce_main" ID="{BD73B7C5-529B-48F3-A1B4-275067A527CA}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_ap_ap_critical_hit_huge" ID="{5EBA9442-17BC-4902-858D-110E0D0CFDE5}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_small_hit_stone_small" ID="{52537BB7-A1C3-4903-9A85-4057089AA463}" WorkUnitID="{2C2AB564-0DCB-4B87-9014-EA8196C0307F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_hc_hc_armor_pierce_main" ID="{4FAF0DCE-D048-490C-821E-8360FFA41E8E}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_he_he_critical_hit_huge" ID="{C196E1B9-361B-491B-A21B-8A9C91ABAA56}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_he_he_critical_hit_large" ID="{3C41A390-701D-494E-837A-2D3167E3486D}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_he_he_armor_pierce_medium" ID="{22A98BAF-50CE-4978-B120-BB413D3F0CBB}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_he_he_armor_not_pierce_large" ID="{015F7CAD-4116-497A-B521-253D74E18EB3}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_ap_ap_armor_pierce_main" ID="{7F2BE81C-96FC-4986-BA8E-0DF1B4E4DE64}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_large_hit_sand_large" ID="{46C76E0A-1BF1-498E-BB24-329A887305D5}" WorkUnitID="{9C4671D0-9FD3-4B82-A3AA-6FA6271396EE}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_he_he_critical_hit_huge" ID="{C7639E12-BD6A-49B8-B72F-12F8A745A7B3}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_ap_ap_armor_pierce_large" ID="{BAD42EC9-7640-49C5-AE37-551DD36E56DC}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_main_hit_snow_fougasse_main" ID="{492D5C5C-7D0B-4A41-84B1-F30FB23595A8}" WorkUnitID="{75F0FF02-41D3-4049-9272-627B638A0DEA}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_ap_ap_armor_pierce_small" ID="{01B99CFD-0BC1-4A69-8AC0-BFB534A74C10}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_he_he_armor_not_pierce_small" ID="{A6A08416-1388-4A6C-8949-1D81C8E9BA1D}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_he_he_armor_not_pierce_huge" ID="{D06DC705-D886-4A7A-8BF1-71ECC7777D6C}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_hc_hc_armor_pierce_medium" ID="{25020DEE-FF5E-4A96-9794-C4993F93E65A}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_he_he_armor_pierce_main" ID="{A1678BE1-FC18-4AAA-A3EC-E208F089A980}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_apcr_apcr_ricochet_small" ID="{6081A79E-CEB9-4AD0-B52E-81FADEF93708}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_apcr_apcr_ricochet_main" ID="{48D28F96-F7C6-4AD0-A3E1-53AC223CC36F}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_he_he_critical_hit_small" ID="{D80B692F-8CCD-4AD3-8693-BCE2D7E97AF6}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_medium_hit_water_fougasse_medium" ID="{76BF5212-3C0E-4AE9-B937-0CC2113CDC1A}" WorkUnitID="{48337209-68B7-4CDA-9291-E93300BA44B4}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_ap_ap_armor_pierce_huge" ID="{2DFB282F-0BB9-4AEA-AA85-8DAA740C8097}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_hc_hc_critical_hit_medium" ID="{F94BAE97-00B4-4AEE-90F4-81CDA46D1A9B}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_ap_ap_critical_hit_main" ID="{05438760-024F-4AEE-BB40-AAE19C8BFC40}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_ap_ap_ricochet_large" ID="{F33C53CE-6FE7-4AEF-8142-FDA3530050B7}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_large_hit_metal_fougasse_large" ID="{DCE5B0A5-D999-4AF3-B2C5-2F0957459F83}" WorkUnitID="{9C4671D0-9FD3-4B82-A3AA-6FA6271396EE}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_large_hit_ground_fougasse_large" ID="{6491C5A3-57BF-4AF4-97B4-F71CB42820D0}" WorkUnitID="{9C4671D0-9FD3-4B82-A3AA-6FA6271396EE}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_ap_ap_ricochet_small" ID="{AD045823-A63F-4B09-87A7-C76ADB288540}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_he_he_armor_pierce_medium" ID="{3401C1AA-6195-4B38-A406-4767318F7A72}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_ap_ap_ricochet_main" ID="{3E9667FD-5660-4B4F-B3BB-80C232F070B4}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_hc_hc_critical_hit_huge" ID="{8E8B044D-D5A5-4B95-869E-EBF5F658D1AB}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_hc_hc_critical_hit_small" ID="{03509153-F4B2-4BCF-8685-3976FDB68AF7}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_huge_hit_wood_huge" ID="{C01D0F03-598E-4C02-92FF-B4D2D485DB95}" WorkUnitID="{8C8328D1-7068-43B6-BFAE-7273A1BE8A4F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_main_hit_stone_fougasse_main" ID="{067CEDE9-7E1F-4C2B-8D63-D7589B69B183}" WorkUnitID="{75F0FF02-41D3-4049-9272-627B638A0DEA}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_ap_ap_ricochet_huge" ID="{D8CF8BFA-F0DB-4C5E-B3AE-896206FD4B4B}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_he_he_armor_pierce_large" ID="{17247DE8-2CAE-4C7F-B4FB-7437839375D6}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_huge_hit_water_fougasse_huge" ID="{1168B07C-404D-4C84-83CF-86AC13410E97}" WorkUnitID="{8C8328D1-7068-43B6-BFAE-7273A1BE8A4F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_large_hit_snow_fougasse_large" ID="{AE3FBD76-F7C6-4C85-BE5C-8C8B1CFD19EE}" WorkUnitID="{9C4671D0-9FD3-4B82-A3AA-6FA6271396EE}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_ap_ap_armor_pierce_small" ID="{98B07F93-C30E-4CA9-B1EE-35DBA5B6B9A9}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_large_hit_stone_fougasse_large" ID="{48FBD72C-C63B-4CAD-977B-D03D4895DFF5}" WorkUnitID="{9C4671D0-9FD3-4B82-A3AA-6FA6271396EE}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_he_he_armor_not_pierce_main" ID="{AFA2A9EE-F76B-4CB2-BB19-891640AACC3D}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_ap_ap_armor_pierce_large" ID="{802D945C-BFCC-4CC3-82C7-9FE62C01BE75}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_apcr_apcr_armor_not_pierce_medium" ID="{A77C2DED-8EDA-4CD1-B46A-B0F63BB0C6D2}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_huge_hit_water_huge" ID="{A15CF46A-A2AB-4CDA-B153-8A057B96B41D}" WorkUnitID="{8C8328D1-7068-43B6-BFAE-7273A1BE8A4F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_huge_hit_ground_huge" ID="{4FC2E987-6DD1-4CDB-AF6D-48DCB02C43A9}" WorkUnitID="{8C8328D1-7068-43B6-BFAE-7273A1BE8A4F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_he_he_critical_hit_small" ID="{2F7021A4-4A97-4CF3-BE97-4F5B519E844D}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_hc_hc_armor_pierce_large" ID="{90003726-1D8E-4D1A-9A3E-E90C2BF9C451}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_main_hit_wood_main" ID="{4E0B262B-BB8B-4D21-A4E7-A9BA1514945C}" WorkUnitID="{75F0FF02-41D3-4049-9272-627B638A0DEA}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_apcr_apcr_ricochet_huge" ID="{6D272BBC-92F8-4D3A-9856-24F56994F445}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_hc_hc_critical_hit_small" ID="{28CC459A-A97E-4D45-B8BA-4EFC60C91EAB}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_large_hit_ground_large" ID="{95227E70-3709-4D64-B5B1-137097D82297}" WorkUnitID="{9C4671D0-9FD3-4B82-A3AA-6FA6271396EE}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_medium_hit_ground_fougasse_medium" ID="{BE5691FE-8B3D-4D72-938C-B13D2B3E6A1B}" WorkUnitID="{48337209-68B7-4CDA-9291-E93300BA44B4}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_ap_ap_armor_pierce_medium" ID="{D8A0D147-FD8A-4D84-8145-A09E1D0ABB53}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_large_hit_water_large" ID="{A6BCD2C6-A9F8-4DCE-834D-2AA4C0F07A40}" WorkUnitID="{9C4671D0-9FD3-4B82-A3AA-6FA6271396EE}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_medium_hit_snow_fougasse_medium" ID="{3B1E1FE1-A448-4DF0-9EFB-BE22D9E8E77F}" WorkUnitID="{48337209-68B7-4CDA-9291-E93300BA44B4}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_ap_ap_critical_hit_large" ID="{CC85E4BB-6FD1-4E21-AA23-AEDF783A7808}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_main_hit_ground_main" ID="{4D850904-F7A6-4E21-98CF-5D4FC51F1984}" WorkUnitID="{75F0FF02-41D3-4049-9272-627B638A0DEA}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_he_he_critical_hit_medium" ID="{A9F2A913-1650-4E29-9D1A-5F4403DDDD2B}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_large_hit_snow_large" ID="{2A847163-4E31-4E32-A027-F0B421D81CAB}" WorkUnitID="{9C4671D0-9FD3-4B82-A3AA-6FA6271396EE}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_large_hit_metal_large" ID="{E793765D-0833-4E3A-91B5-6895D4AC9B17}" WorkUnitID="{9C4671D0-9FD3-4B82-A3AA-6FA6271396EE}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_small_hit_wood_fougasse_small" ID="{89AACE5F-6328-4E65-8BAE-D836A7C29354}" WorkUnitID="{2C2AB564-0DCB-4B87-9014-EA8196C0307F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_hc_hc_critical_hit_tow" ID="{7DDE48CD-1BF2-4E6D-A839-A2B30E10D558}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_hc_hc_armor_not_pierce_huge" ID="{DC7B53A5-04B6-4E84-9A1A-6622506F6288}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_hc_hc_armor_not_pierce_medium" ID="{8F59ECD3-D48B-4E94-A3A7-7D497E188E79}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_apcr_apcr_armor_not_pierce_small" ID="{C484194E-5758-4EA9-AF4C-ED9443C8DCE0}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_small_hit_water_fougasse_small" ID="{53D3BC8E-2832-4EAF-9C55-5F1E6B46DDE8}" WorkUnitID="{2C2AB564-0DCB-4B87-9014-EA8196C0307F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_ap_ap_armor_pierce_medium" ID="{3A5B685A-9EA1-4EBF-832B-1419F255BF30}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_small_hit_water_small" ID="{31DAB14F-DD1A-4EBF-ACB6-DA1CDDE34315}" WorkUnitID="{2C2AB564-0DCB-4B87-9014-EA8196C0307F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_ap_ap_armor_not_pierce_small" ID="{5ADBA322-E0DC-4ECC-8449-FB5C714ACAD2}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_hc_hc_armor_pierce_huge" ID="{460726C6-63CB-4ED5-B1D1-073B4636ED40}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_small_hit_sand_fougasse_small" ID="{C102AE38-1766-4EDA-B7B2-9556414999E5}" WorkUnitID="{2C2AB564-0DCB-4B87-9014-EA8196C0307F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_apcr_apcr_ricochet_large" ID="{EC5B9B4D-3570-4F0B-A2EC-9BA6D4E3FD53}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_hc_hc_armor_pierce_small" ID="{D6F5911A-79FA-4F27-9749-9F814430B942}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_ap_ap_armor_not_pierce_huge" ID="{90DDE6BF-678D-4F29-A417-D7020C3D0647}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_small_hit_metal_fougasse_small" ID="{A5460E83-1E8D-4F2E-9FC3-EE1C02BA9B77}" WorkUnitID="{2C2AB564-0DCB-4B87-9014-EA8196C0307F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_medium_hit_wood_medium" ID="{6513D540-9981-4F42-8320-96B50F9EF9C0}" WorkUnitID="{48337209-68B7-4CDA-9291-E93300BA44B4}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_he_he_critical_hit_main" ID="{D9A4A064-44FC-4F6E-B6B5-477006FB34A1}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_apcr_apcr_armor_not_pierce_large" ID="{6F5153CA-060E-4F9F-B5DA-52229623AB07}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_huge_hit_ground_fougasse_huge" ID="{6C150242-F7FA-4FAE-92F8-246BD16FAC7D}" WorkUnitID="{8C8328D1-7068-43B6-BFAE-7273A1BE8A4F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_pc_hc_hc_armor_pierce_tow" ID="{F23771C2-8D10-4FBC-BB36-8857D240C4AD}" WorkUnitID="{E6EBB40E-6E12-4CBD-AC59-86F8CC280B4C}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_he_he_critical_hit_large" ID="{143C370C-ADA8-4FC9-AD49-462D5BE1FEC8}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_ap_ap_critical_hit_main" ID="{E8F23473-081F-4FD8-9BA5-65070F31D108}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_huge_hit_stone_fougasse_huge" ID="{593A2E3B-3536-4FDD-8179-3D6620F7A14C}" WorkUnitID="{8C8328D1-7068-43B6-BFAE-7273A1BE8A4F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_surface_hits_main_hit_stone_main" ID="{72A768AD-F86F-4FDD-B515-488641F8383F}" WorkUnitID="{75F0FF02-41D3-4049-9272-627B638A0DEA}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="hits_hits_tank_npc_apcr_apcr_ricochet_medium" ID="{96C27C01-07CF-4FE9-A1FB-2883C4723738}" WorkUnitID="{2C4388B7-8108-4DCA-B87A-E7C29A461981}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="RXD_MUSIC_SFX" ID="{083C1E74-3D29-4965-AD83-F834366D396C}">
+							<ObjectInclusionList/>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

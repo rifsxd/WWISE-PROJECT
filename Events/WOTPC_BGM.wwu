@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" SchemaVersion="97" RootDocumentID="{0FE8F3E7-B609-434D-AA44-E8AAA6CC2ACE}">
+	<Events>
+		<WorkUnit Name="WOTPC_BGM" ID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" OwnerID="{0FE8F3E7-B609-434D-AA44-E8AAA6CC2ACE}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="RxD_Desert_Train" ID="{049C0136-855E-44CE-BBEE-61710E8CB63A}">
+					<ChildrenList>
+						<Action Name="" ID="{CBC6E361-B02A-4904-B4A8-262C22F7691A}" ShortID="730648540">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Desert_Train" ID="{0AFD2BDF-C9C2-48EE-ABA2-53E735027CEC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
