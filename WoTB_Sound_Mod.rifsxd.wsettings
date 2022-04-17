@@ -21,6 +21,7 @@
 				<Property Name="Event Action List\{17247DE8-2CAE-4C7F-B4FB-7437839375D6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{18761198-50EF-4859-AC5A-414548CE910A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{198E34FF-8362-41A6-A7A1-C59B6AFF98D5}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{1AA041D4-FBAE-4D0B-B827-ADEF934D9966}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{1B628366-5C43-48C5-9103-E0D8824B34E2}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{1CA01291-42DE-4738-AC08-1323A924E14C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{20E25913-B017-42DE-A6BE-6F9A752ACEB1}\x64_Expand States" Type="string" Value=""/>
@@ -243,7 +244,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="R2JcABJYfk2G6i88ULXhZg=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="YaM93/gJDUOBT0CA8oCI3ZdmfPmYcd1Di/mn0EF5wTDTyXBGqUxERKBv+f1pRqhSffrGLWzfP0elg2U2EuUEDoymX4A4ilpIh9fS/nLJxZQZAgl2expDSZiTirvT7i0imQfCu8pju0yJeocWBP6gbfIUrYMtXzxNlVFcbBJyYWICuhXD6qWXTbVB9KbBvmnt"/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="YaM93/gJDUOBT0CA8oCI3ZdmfPmYcd1Di/mn0EF5wTDTyXBGqUxERKBv+f1pRqhSffrGLWzfP0elg2U2EuUEDoymX4A4ilpIh9fS/nLJxZQZAgl2expDSZiTirvT7i0imQfCu8pju0yJeocWBP6gbfIUrYMtXzxNlVFcbBJyYWICuhXD6qWXTbVB9KbBvmnt8dRHYGhlTk6s+nHeqd+UxQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="2xc8OHqHRUGf24wRXluIF+fz6A8Jtk1DqkToqqbMKs6pFIGfmfAlSbOeJIYeO5Q6d2MZXbFVNUu2HnC4EgsanGS1KizLDYdLkBTqgZbAMH+IF0DSrJYKTZsVHvsQe+Ye"/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
